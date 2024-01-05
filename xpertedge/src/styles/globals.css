@@ -1,0 +1,419 @@
+@import "./Button.css";
+
+:root {
+  --swiper-navigation-color: #edb552;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: transparent;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 34px;
+}
+h4 {
+  font-size: 32px;
+  color: black;
+}
+h3 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 32px;
+  color: black;
+}
+h5 {
+  font-size: 27px;
+  color: black;
+}
+h6 {
+  font-size: 22px;
+  color: black;
+}
+p {
+  margin: 0;
+  font-size: 16px;
+  color: #000;
+  margin-top: 10px;
+}
+.none {
+  display: none;
+}
+input:-internal-autofill-selected {
+  background-color: none;
+  color: firebrick;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.imgWrapper {
+  display: flex;
+  width: 100%;
+}
+.imgWrapperMobile {
+  display: none;
+}
+.divWrapper {
+  display: none;
+}
+.imgWrapperDesktop {
+  display: flex;
+  width: 100%;
+}
+.imgWrapperDesktop img {
+  width: 100%;
+  height: auto;
+}
+.imgWrapper img {
+  width: 100%;
+  height: auto;
+}
+.bgWrap {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  /* border-radius: 10px; */
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+.flexBox {
+  display: flex;
+}
+.flexBoxColumn {
+  flex-flow: column;
+}
+.flexBoxRow {
+  flex-flow: row;
+}
+iframe {
+  border-radius:18px;
+}
+
+.flexJustSpaceBetween {
+  justify-content: space-between;
+}
+.flexJustSpaceCenter {
+  justify-content: center;
+}
+.flexAlignCenter {
+  align-items: center;
+}
+.flexAlignStart {
+  align-items: start;
+}
+
+.bIcons {
+  margin-right: 8px;
+  display: initial;
+  font-size: 18px;
+  margin-left: 8px;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: column;
+  padding: 40px 100px;
+}
+
+.MainCities {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 0px 100px 100px 100px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #0072bc !important;
+  --swiper-navigation-size: 20px !important;
+}
+
+.swiper-android .swiper-slide,
+.swiper-wrapper {
+  padding: 0px 0px 0px 0px;
+}
+
+.swiper-slide {
+  background: transparent;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-flow: column;
+
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.numberIcon {
+  font-size: 40px;
+  color: #0072bc;
+}
+
+.RightPopup h5 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #0072bc !important;
+  width: 20% !important;
+}
+
+.swiper-horizontal > .swiper-scrollbar {
+  width: 20% !important;
+  left: 40% !important;
+}
+
+.react-tel-input .form-control {
+  width: 100% !important;
+}
+
+@media (max-width: 1281px) {
+  .wrapper {
+    padding: 40px 80px;
+  }
+  .MainCities {
+    display: grid;
+    margin: 0px 20px;
+  }
+  h4 {
+    font-size: 28px;
+    color: black;
+  }
+  .whiteP {
+    width: 300px;
+  }
+  .FlDiv {
+    display: none;
+  }
+  .RightPopup {
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .wrapper {
+    padding: 30px 60px;
+  }
+}
+@media (max-width: 961px) {
+  .wrapper {
+    padding: 30px 40px;
+  }
+  .whiteP {
+    width: 350px;
+  }
+  .RightPopup {
+    width: 90%;
+    margin-left: 50px;
+  }
+}
+@media (max-width: 850px) {
+  .leftPopup {
+    display: none;
+  }
+  .RightPopup {
+    margin-left: 0;
+  }
+}
+@media (max-width: 801px) {
+  .MainCities {
+    display: block;
+    margin: 0px 10px;
+  }
+  .wrapper {
+    padding: 30px 20px;
+  }
+  .faqCity .course .wrapper {
+    padding: 30px 0px !important;
+  }
+}
+@media (max-width: 641px) {
+  .imgWrapperMobile {
+    display: flex;
+  }
+  .imgWrapperDesktop {
+    display: none;
+  }
+}
+
+@media (max-width: 481px) {
+  .FlDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(255, 255, 255);
+    border-radius: 12px;
+    border-top: 1px solid rgba(98, 98, 98, 0.125);
+    height: 60px;
+    width: 100vw;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+  }
+  .FlDiv div {
+    display: flex;
+    align-items: center;
+  }
+  .flDivLeft {
+    /* border-right: 2px solid #2d9cd7;
+    padding-right: 10px; */
+    margin: 0;
+  }
+  .divWrapper {
+    display: flex;
+    position: relative;
+    width: 100vw;
+  }
+  h4 {
+    font-size: 24px;
+    color: #000;
+    padding: 0;
+    font-weight: 700;
+    margin: 0 0 20px;
+  }
+  .swiper-horizontal > .swiper-scrollbar {
+    width: 80% !important;
+    left: 10% !important;
+  }
+}
+.divWrapper {
+  display: none;
+}
+
+.popupModal {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  background-color: white;
+}
+
+.whiteP {
+  background-color: transparent;
+  height: 600px;
+  width: 600px;
+}
+
+.RightPopup h5 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.RightPopup p {
+  margin: 0;
+  font-size: 16px;
+  color: rgb(143, 143, 143);
+}
+
+.FlDiv {
+  display: none;
+}
+
+.RightPopup {
+  display: flex;
+  flex-flow: column;
+  margin-left: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.RightPopup h5 {
+  font-size: 20px;
+  text-align: left;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.RightPopup p {
+  margin: 0;
+  font-size: 12px;
+  color: rgb(143, 143, 143);
+}
+
+.bIcon {
+  font-size: 18px;
+  margin-left: 8px;
+  color: #0072bc;
+}
+
+.bIcon {
+  font-size: 18px;
+  margin-left: 8px;
+  color: #0072bc;
+}
+@media (max-width: 481px) {
+  .divWrapper {
+    display: flex;
+    position: relative;
+    width: 100vw;
+  }
+  .FlDiv {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: #0072bc;
+    border-radius: 12px 12px 0px 0px;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    width: 100vw;
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+  }
+  .FlDiv div {
+    display: flex;
+    align-items: center;
+  }
+  .flDivLeft {
+    /* border-right: 2px solid #2d9cd7;s */
+    padding-right: 10px;
+    margin: 0;
+  }
+  .RightPopup {
+    margin-left: 0;
+  }
+}

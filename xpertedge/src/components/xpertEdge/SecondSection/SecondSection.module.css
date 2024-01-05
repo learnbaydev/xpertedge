@@ -1,0 +1,141 @@
+.maindiv {
+    display: flex;
+    /* grid-template-columns: 28% 24% 26% 30%; */
+    border-radius: 22.048px;
+    /* opacity: 0.3; */
+    background: linear-gradient(90deg, #6daff0 0%, #dff8b9 49.88%, #7bb9e2 100%);
+    margin: 42px 60px;
+    padding: 20px;
+    gap: 38px;
+}
+
+.fone {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+.hrline {
+    margin: 10px 0;
+    border: 0.1px solid #fff;
+}
+
+
+.inone {
+    border-radius: 20px;
+    width: 264px;
+    background: #FFF;
+    padding: 20px 19px;
+    box-shadow: 0px 1px 11px -2px rgba(0, 0, 0, 0.);
+    margin: 10px 1px;
+}
+
+.inone p {
+    color: #403F3F;
+    text-align: center;
+    /* font-family: Open Sans; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    line-height: 140%;
+   
+}
+
+
+.ftwo {
+    border-radius: 20px;
+    width: 280px;
+    background: #FFF;
+    padding: 24px 14px;
+    margin: 10px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    border-radius: 22.048px;
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.icons {
+    font-size: 60px;
+    color: #F99600;
+    
+}
+
+@media (max-width: 641px) {
+    .maindiv{
+        display: grid;
+        grid-template-columns: 40% 50%;
+        margin: 10px;
+        padding: 10px 6px;
+        grid-gap: 3px 40px;
+        gap: 3px 40px;
+        border-radius: 6px;
+}
+
+.gptimg img {
+    width: 140px;
+    height: auto;
+    margin-left: 15px;
+}
+.fone {
+    margin-top: 6px;
+}
+.inone {
+    margin-top: 1px;
+    border-radius: 8px;
+    padding: 23px 6px;
+    width: 180px;
+}
+.ftwo {
+    width: 183px;
+    height: 132px;
+    font-size: 12px;
+    padding: 12px 6px;
+    gap: 16px;
+    justify-content: center;
+    border-radius: 8px;
+    margin: 0px;
+}
+.ftwo img {
+    width: 40px;
+    height: auto;
+}
+.ftwo p{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+    color: #403F3F;
+    font-weight: 500;
+}
+.hrline{
+    display: none;
+}
+.inone p{
+   
+    font-size: 11px;
+    margin-top: 0px;
+}
+}
+@media (max-width: 361px) {
+
+
+    .inone{
+        width: 150px;
+    }
+.ftwo{
+    width: 160px;
+}
+.gptimg{
+    width: 120px;
+}
+.fone{
+    margin-top: 12px;
+}
+}
+

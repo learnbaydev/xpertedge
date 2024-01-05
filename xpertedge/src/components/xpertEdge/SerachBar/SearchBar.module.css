@@ -1,0 +1,239 @@
+.containertwo{
+  display:none;
+}
+
+.popular {
+  color: #686868;
+}
+.searchResults {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.courseCard {
+  border: 1px solid #ddd;
+  padding: 16px;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.courseCard:hover {
+  transform: scale(1.05);
+}
+
+.courseTitle {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.courseImage {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+.input {
+  display: flex;
+  gap: 6px;
+  padding: 13px 23px 15px 17px;
+  width: 500px;
+  border: none;
+  margin: 0px 23px 0px 13px;
+  border-radius: 6px;
+  background: #F1F1F1;
+}
+.input input {
+  width: 450px;
+  border:  none;
+  background: #F1F1F1;
+  color: #8F8F8F;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 127.182%; /* 31.795px */
+padding: 0px 0px 0px 34px;
+}
+.searchIcon {
+  color: #686868;
+  font-size: 30px;
+}
+.inputstyle {
+  background-color: red;
+  outline: none;
+}
+
+
+.searchContainer {
+  position: relative;
+  margin-left: 50vh;
+}
+
+.searchResults {
+  position: absolute;
+  top: 100%; /* Position the results below the search input */
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+  /* Add other styles as needed */
+}
+
+
+
+
+
+
+.input {
+  /* Your existing styles for the input container */
+  position: relative;
+}
+
+.inputStyle {
+  /* Your existing styles for the input */
+  padding-left: 30px; 
+  outline: none;/* Adjust the padding to make room for the search icon */
+}
+
+.searchIcon {
+  /* Your styles for the search icon */
+  position: absolute;
+  left: 10px; /* Adjust the left position to align the icon properly */
+  top: 50%;
+  transform: translateY(-50%);
+  color: #8F8F8F; /* Adjust the color of the icon */
+}
+
+.dropdown {
+  position: absolute;
+    margin: 11px 2px 20px 8px;
+    width: 300px;
+    top: 100%;
+    left: 0;
+    width: 95%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px 10px;
+}
+
+.dropdownItem {
+  /* Your styles for each dropdown item */
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add a transition effect */
+}
+
+.dropdownItem:hover {
+  background-color: #dff6bc; /* Adjust the background color on hover */
+}
+.courseInfo {
+  display: flex;
+  flex-direction: column;
+  /* box-shadow: 0px 0px 1px 0px; */
+  padding: 10px 7px;
+}
+.dropdowncol {
+  display: flex;
+
+}
+.courseInfo h4 {
+  margin: 0px;
+  /* background-color: red; */
+  font-size: 15px;
+}
+
+.iconstar {
+  color: gold;
+}
+.ul {
+  display: flex;
+  gap: 20px;
+  color: #555;
+  margin-top: 10px;
+  list-style: none;
+}
+
+
+@media (max-width: 641px) {
+
+.input input {
+  width: 120px;
+  padding: 4px 12px 3px 10px;
+  font-size: 11px;
+  
+
+}
+.input{
+width: 140px;
+padding: 10px 12px 10px 12px;
+}
+
+.searchContainer {
+  margin-left: 0px;
+}
+.destopview{
+  display:none;
+}
+
+
+.searchIcon{
+font-size: 20px;
+left:4px;
+}
+/* styles.css */
+
+.containertwo {
+  height: auto;
+  /* line-height: 200px; */
+  text-align: center;
+  display: block;
+  position: relative;
+  left: 72px;
+}
+
+.search-form {
+  right: 200px;
+  top: 200px;
+}
+
+.search-field {
+  display: none;
+  background-color: transparent;
+  background-image: url(https://wp-themes.com/wp-content/themes/twentythirteen/images/search-icon.png);
+  background-position: 5px center;
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 0 0 34px;
+  position: relative;
+  -webkit-transition: width 400ms ease, background 400ms ease;
+  transition: width 400ms ease, background 400ms ease;
+  width: 0px;
+  cursor: pointer;
+}
+
+.search-field:focus {
+  background-color: #ffffff;
+
+  cursor: text;
+  outline: 0;
+  width: 250px;
+  color: #fff;
+}
+
+.search-submit {
+  display: none;
+}
+
+
+
+
+
+
+}
+
+

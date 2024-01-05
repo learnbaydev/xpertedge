@@ -1,0 +1,148 @@
+.OfferPopup {
+  position: fixed;
+  background-color: #fff7ea;
+
+  border-radius: 8px 8px 0 0;
+  z-index: 9999;
+  height: max-content;
+  width: 550px;
+  bottom: 0;
+  left: 50px;
+  padding-bottom: 20px;
+}
+.header {
+  background-color: #282828;
+  display: flex;
+  border-radius: 8px 8px 0 0;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.Offer {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+
+  padding-left: 30px;
+  padding-right: 30px;
+  flex-flow: column;
+  justify-content: center;
+}
+.header h6 {
+  text-align: center;
+  font-size: 27px;
+  font-weight: 900;
+  margin: 0;
+  color: #f99600;
+}
+.header span {
+  color: white;
+  font-size: 22px;
+}
+.valid {
+  position: relative;
+  text-align: center;
+  color: #2f2f2f;
+}
+.tag {
+  position: absolute;
+  padding: 8px 40px;
+  background-color: #d32424;
+  color: white;
+  bottom: -40px;
+  right: -25px;
+  z-index: 1;
+}
+.tag::after {
+  content: "";
+  position: absolute;
+  bottom: -24px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-top: 18px solid transparent;
+  border-right: 18px solid #d32424;
+  border-bottom: 18px solid transparent;
+  z-index: -1;
+  transform: rotate(45deg);
+}
+.bHeading {
+  color: #f99600;
+  font-size: 22px;
+  font-weight: 700;
+}
+.batchPoint {
+  display: flex;
+  flex-flow: column;
+  gap: 5px;
+  margin: 5px 0;
+}
+.batchPoint p {
+  font-size: 18px;
+}
+/* .Offer p {
+  margin: 0;
+  font-weight: 600;
+  color: #000;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 14px;
+} */
+.Offer button {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  font-size: 18px;
+}
+.btnWrap, .btnWrap2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Icon {
+  position: absolute;
+  font-size: 12px;
+  color: #ffffff;
+  top: -8px;
+  right: 10px;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.faded {
+  color: rgb(201, 201, 201);
+}
+
+@media (max-width: 481px) {
+  .OfferPopup {
+    width: 95%;
+    margin-bottom: 50px;
+    height: max-content;
+    left: 10px;
+    padding:  0px 0px 30px 0px;
+  }
+  .header h6 {
+    font-size: 22px;
+  }
+  .header span {
+    font-size: 16px;
+  }
+  .btnWrap {
+    display: none;
+  }
+  .bHeading {
+    font-size: 18px;
+  }
+  .tag {
+    bottom: -10px;
+    right: 0;
+    padding: 5px 25px;
+  }
+  .tag::after {
+    display: none;
+  }
+}

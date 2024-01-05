@@ -1,0 +1,159 @@
+.greenButton {
+  background-color: #72BC00;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.greenButton:hover{
+  /* background-color: #000; */
+  border: 1px solid #fff;
+}
+.blackButton {
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 800;
+  border: 1px solid #fff;
+}
+
+.blackButton:hover {
+  background-color: #72BC00;
+  border: none;
+}
+.button {
+  padding: 12px 30px;
+  outline: none;
+  background-color: #0072bc;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  border: 1px solid #0072bc;
+}
+.button:hover {
+  border: 1px solid #0072bc;
+  background-color: white;
+  color: #0072bc;
+}
+.outLineBtn,
+.ButtonWhiteBg,
+.outLineBtn1 {
+  padding: 12px 20px;
+  border: 1px solid #0072bc;
+  color: #fff;
+  background-color: #0072bc;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.outLineBtn:hover,
+.ButtonWhiteBg:hover {
+  background-color: #0072bc;
+  color: white;
+}
+
+.ButtonWhiteBg {
+  color: #0072bc;
+  background-color: #fff;
+  font-weight: 400;
+}
+.nobannerButton,
+.whiteBgButton {
+  padding: 14px 85px;
+  border: 1px solid #0072bc;
+  color: #0072bc;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.nobannerButton:hover,
+.whiteBgButton:hover {
+  background-color: #0072bc;
+  color: white;
+}
+
+.whiteBgButton {
+  background-color: #fff;
+  color: #0072bc;
+}
+
+.bannerButton {
+  padding: 14px 65px;
+  outline: none;
+  background-color: #0072bc;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  gap: 5px;
+  outline: none;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 12px;
+  border: 1px solid #0072bc;
+}
+.bannerButton:hover {
+  border: 1px solid #0072bc;
+  background-color: white;
+  color: #0072bc;
+}
+@media (max-width: 1281px) {
+  .button,
+  .outLineBtn {
+    padding: 10px 20px;
+  }
+}
+@media (max-width: 1281px) {
+  .outLineBtn {
+    position: relative;
+    top: 0px;
+    flex-flow: row-reverse;
+  }
+}
+
+@media (max-width: 481px) {
+  .bannerButton {
+    padding: 14px 50px;
+  }
+  .nobannerButton {
+    padding: 14px 50px;
+  }
+  .whiteBgButton {
+    padding: 14px 73px;
+  }
+}

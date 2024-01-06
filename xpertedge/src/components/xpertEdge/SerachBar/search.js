@@ -109,15 +109,17 @@ const Search = () => {
               key={course.id}
               onClick={() => handleClick(course.url)}
             >
+              <a href={course.url}>
               <div className={styles.courseInfo}>
                 <h4>{course.title}</h4>
                 <div className={styles.dropdowncol}>
                   <ul className={styles.ul}>
-                    <li className={styles.duration}>Duration: {course.Duration}</li>
-                    <li className={styles.rating}> {course.rating} <FaStar className={styles.iconstar}/></li>
+                    <li className={styles.duration}></li>
+                    <li className={styles.rating}>  </li>
                   </ul>
                 </div>
               </div>
+              </a>
             </div>
           ))}
         </div>

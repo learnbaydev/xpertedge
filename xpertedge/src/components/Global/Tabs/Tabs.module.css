@@ -11,7 +11,8 @@
   padding: 20px;
   background-color: white;
   box-shadow: rgba(136, 237, 253, 0.421) 0px 2px 8px 0px;
-  top: 60px;
+  top: 90px;
+  left :100px;
 }
 
 .leftPanel {
@@ -31,7 +32,7 @@
   cursor: pointer;
   justify-content: space-between;
   width: 350px;
-  font-size: 16px;
+  font-size: 15px;
   padding: 10px 20px;
   font-weight: 400;
   border-radius: 5px;
@@ -45,7 +46,7 @@
 .spanActive {
   color: white;
   background: #72BC00;
-  font-size: 18px;
+  font-size: 12px;
   padding: 15px 25px;
   margin-bottom: 10px;
 }
@@ -70,20 +71,24 @@
 
 .Program {
   margin: 10px;
-  box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px;
+  /* box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px; */
   padding: 10px 20px;
-  width: 280px;
+  width: 200px;
   border-radius: 8px;
   align-items: center;
   cursor: pointer;
   display: flex;
   height: fit-content;
   justify-content: space-between;
+  
 }
 
 .Program h5 {
-  font-size: 16px;
+  font-size: 12px;
   margin: 0;
+  color: #646464;
+  font-weight: 600;
+  line-height: 16px;
 }
 
 .Program span {
@@ -129,6 +134,10 @@
     flex-flow: column;
     padding: 20px 20px 120px 20px;
     top: 47px;
+  }
+  .Program {
+    margin: 10px;
+    box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px;
   }
 
   .leftPanel {

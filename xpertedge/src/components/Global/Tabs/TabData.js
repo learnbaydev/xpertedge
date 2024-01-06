@@ -39,8 +39,7 @@ export const TabData = [
   //       hours: "5 Months",
   //       url: "https://www.learnbay.co/datascience/data-analytics-certification-course",
   //     },
-     
-     
+
   //   ],
   // },
   {
@@ -50,12 +49,12 @@ export const TabData = [
       {
         CName: "Python For Non Programmers         ",
         hours: "",
-        url: "afdsghj",
+        url: "/learn/Python-For-Non-Programmers",
       },
       {
         CName: "Python Programming",
-        hours: "/advance/data/science",
-        url: "",
+        hours: "",
+        url: "/learn/Python-Programming",
       },
       {
         CName: "Object oriented programming in Python        ",
@@ -65,64 +64,64 @@ export const TabData = [
       {
         CName: "  Data analytics with Python",
         hours: "",
-        url: "",
+        url: "/learn/Data-analytics-with-Python",
       },
 
       {
         CName: "  Statistics Fundamentals",
         hours: "",
-        url: "",
+        url: "/learn/Statistics-Fundamentals",
       },
       {
         CName: "Machine Learning Foundation",
         hours: "",
-        url: "",
+        url: "/learn/ML---Only-half-algorithms",
       },
       {
         CName: "Deep Learning Foundations        ",
         hours: "",
-        url: "",
+        url: "/learn/Deep-Learning-Foundations",
       },
       {
         CName: "Basics to Advance Excel        ",
         hours: "",
-        url: "",
+        url: "/learn/Basics-to-Advance-Excel",
       },
       {
         CName: "PowerBI Fundamentals        ",
         hours: "",
-        url: "",
+        url: "/learn/PowerBI-Fundamentals",
       },
       {
         CName: "SQL and Database Fundamentals        ",
         hours: "",
-        url: "",
+        url: "/learn/SQL-and-Database-Fundamentals",
       },
       {
         CName: "Tableau Basics        ",
         hours: "",
-        url: "",
+        url: "/learn/Tableau-Basics",
       },
       {
         CName: "Projects - Domain wise projects         ",
         hours: "",
-        url: "",
+        url: "/learn/Projects---Domain-wise-projects",
       },
-      {
-        CName: "Career Transition Guide  - Bundle        ",
-        hours: "",
-        url: "",
-      },
-      {
-        CName: "Job Readiness - Resume, Linkedin , ATS, Github, What can you expect in Interview.        ",
-        hours: "",
-        url: "",
-      },
-      {
-        CName: "Prompt Engineering - By Pritesh        ",
-        hours: "",
-        url: "",
-      },
+      // {
+      //   CName: "Career Transition Guide  - Bundle        ",
+      //   hours: "",
+      //   url: "",
+      // },
+      // {
+      //   CName: "Job Readiness - Resume, Linkedin , ATS, Github, What can you expect in Interview.        ",
+      //   hours: "",
+      //   url: "",
+      // },
+      // {
+      //   CName: "Prompt Engineering - By Pritesh        ",
+      //   hours: "",
+      //   url: "",
+      // },
     ],
   },
   {
@@ -130,37 +129,43 @@ export const TabData = [
     title: "Non-technical Courses",
     courseName: [
       {
-        CName: "Data Science and AI Fundamentals for BFSI Professionals        ",
+        CName:
+          "Data Science and AI Fundamentals for BFSI Professionals        ",
         hours: "",
-        url: "",
+        url: "/learn/Data-Science-and-AI-Fundamentals-for-BFSI-Professionals",
       },
       {
-        CName: "Data Science and AI Fundamentals for Supply chain professionals        ",
+        CName:
+          "Data Science and AI Fundamentals for Supply chain professionals        ",
         hours: "",
-        url: "",
+        url: "/learn/Data-Science---AI-Fundamentals-for-Supplychain-Professionals",
       },
       {
-        CName: "Data Science and AI Fundamentals for healthcare Professionals        ",
+        CName:
+          "Data Science and AI Fundamentals for healthcare Professionals        ",
         hours: "",
-        url: "",
+        url: "/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
       },
       {
-        CName: "Data Science and AI Fundamentals for Manufacturing & Automotive Professionals        ",
+        CName:
+          "Data Science and AI Fundamentals for Manufacturing & Automotive Professionals        ",
         hours: "",
-        url: "",
+        url: "/learn/Data-Science---AI-for-Manufacturing---Automotive",
       },
       {
-        CName: "Data Science and Analytics Fundamentals for HR Professionals        ",
+        CName:
+          "Data Science and Analytics Fundamentals for HR Professionals        ",
         hours: "",
-        url: "",
+        url: "/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
       },
       {
-        CName: "Data Science and Analytics Fundamentals for Marketing Professionals        ",
+        CName:
+          "Data Science and Analytics Fundamentals for Marketing Professionals        ",
         hours: "",
-        url: "",
-      },,
-     
-      
+        url: "/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
+      },
+
+      ,
     ],
   },
 ];

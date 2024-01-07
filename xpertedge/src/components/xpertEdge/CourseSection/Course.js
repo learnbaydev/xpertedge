@@ -246,6 +246,7 @@ const Course = ({
                                       </a>
                                     ) : (
                                       <a
+                                      href={link1}
                                         // href={`${process.env.BASE_PATH}${link1}`}
                                         className={styles.imgWrap}
                                       >

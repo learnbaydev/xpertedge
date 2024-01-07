@@ -13,15 +13,13 @@ export const courseDetails = [
             title: "Python For             ",
             title1: "Non Programmers ",
             tag: "Data science",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Advance Data Science and AI Certification",
             description: [
               "Designed for beginners, 'Python for Non-Programmers' course introduces fundamental Python concepts to individuals with minimal programming experience.              ",
             ],
-            link1: "/learn/Python-For-Non-Programmers",
-            link2:
-              "",
+            link1: "https://course.xpertedge.co/learn/Python-For-Non-Programmers",
+            link2: "",
           },
           {
             id: 5,
@@ -30,15 +28,13 @@ export const courseDetails = [
             title1: "Programming ",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Software Developer Certification",
             description: [
               "This course is for individuals with some programming experience or those who completed an introductory course.              ",
             ],
-            link1: "/learn/Python-Programming",
-            link2:
-              "",
+            link1: "https://course.xpertedge.co/learn/Python-Programming",
+            link2: "",
           },
           {
             id: 2,
@@ -64,15 +60,13 @@ export const courseDetails = [
             title1: "Python   ",
             tagHead: "For Working Professional",
             tag: "Data science",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Business Analytics Program",
             description: [
               "This course imparts crucial data analysis concepts, tools, and techniques, equipping participants with skills for informed, data-driven decision-making.              ",
             ],
-            link1: "/learn/Data-analytics-with-Python",
-            link2:
-              "",
+            link1: "https://course.xpertedge.co/learn/Data-analytics-with-Python",
+            link2: "",
           },
           {
             id: 4,
@@ -81,15 +75,13 @@ export const courseDetails = [
             title1: "Fundamentals ",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Data Analytics Program",
             description: [
               "The 'Statistics Fundamentals' course imparts a foundational understanding of statistical concepts and their practical applications to participants.              ",
             ],
-            link1: "/learn/Statistics-Fundamentals",
-            link2:
-              "",
+            link1: "https://course.xpertedge.co/learn/Statistics-Fundamentals",
+            link2: "",
           },
           // {
           //   id: 5,
@@ -137,15 +129,13 @@ export const courseDetails = [
             title: "Machine Learning           ",
             title1: "Foundation   ",
             tag: "Data science",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Advance Data Science and AI Certification",
             description: [
               "The 'Machine Learning Foundation' course provides a comprehensive program introducing participants to fundamental machine learning concepts and techniques.              ",
             ],
-            link1: "/learn/ML---Only-half-algorithms",
-            link2:
-              "",
+            link1: "https://course.xpertedge.co/learn/ML---Only-half-algorithms",
+            link2: "",
           },
           {
             id: 5,
@@ -154,15 +144,13 @@ export const courseDetails = [
             title1: "Foundations     ",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Software Developer Certification",
             description: [
               "This course equips participants with the essential knowledge and skills required to navigate the rapidly evolving field of deep learning.              ",
             ],
-            link1: "/learn/Deep-Learning-Foundations",
-            link2:
-              "",
+            link1: "https://course.xpertedge.co/learn/Deep-Learning-Foundations",
+            link2: "",
           },
           {
             id: 2,
@@ -171,15 +159,13 @@ export const courseDetails = [
             title1: " Excel  ",
             tag: "Data science",
             tagHead: "For Sr. Managers/Team Lead",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Advance AI and ML Non-Tech Courses",
             description: [
               "This Microsoft Excel course offers hands-on training, ideal for those aiming to boost proficiency, covering foundational to advanced skills.              ",
             ],
-            link1: "/learn/Basics-to-Advance-Excel",
-            link2:
-              "",
+            link1: "https://course.xpertedge.co/learn/Basics-to-Advance-Excel",
+            link2: "",
           },
           {
             id: 3,
@@ -188,15 +174,13 @@ export const courseDetails = [
             title1: "Fundamentals    ",
             tagHead: "For Working Professional",
             tag: "Data science",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Business Analytics Program",
             description: [
               "The 'Power BI Fundamentals' course equips participants with skills for effective data analysis and visualization using Microsoft Power BI.              ",
             ],
-            link1: "/learn/PowerBI-Fundamentals",
-            link2:
-              "",
+            link1: "https://course.xpertedge.co/learn/PowerBI-Fundamentals",
+            link2: "",
           },
           {
             id: 4,
@@ -205,15 +189,13 @@ export const courseDetails = [
             title1: "Fundamentals   ",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Data Analytics Program",
             description: [
               "This course provides a structured learning path, suitable for beginners or those looking to strengthen their understanding of SQL and databases.              ",
             ],
-            link1: "/learn/SQL-and-Database-Fundamentals",
-            link2:
-              "",
+            link1: "https://course.xpertedge.co/learn/SQL-and-Database-Fundamentals",
+            link2: "",
           },
           // {
           //   id: 5,
@@ -286,15 +268,14 @@ export const courseDetails = [
             title: "Data Science and AI Fundamentals          ",
             title1: " for BFSI Professionals  ",
             tag: "Data science",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Advance Data Science and AI Certification",
             description: [
               "Learnbay's Data Science for BFSI Professionals' course provides essential knowledge and practical skills in AI,  tailored for BFSI professionals.              ",
             ],
-            link1: "/learn/Data-Science-and-AI-Fundamentals-for-BFSI-Professionals",
-            link2:
-              "",
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science-and-AI-Fundamentals-for-BFSI-Professionals",
+            link2: "",
           },
           {
             id: 2,
@@ -303,15 +284,14 @@ export const courseDetails = [
             title1: "for Supply chain professionals  ",
             tag: "Data science",
             tagHead: "For Sr. Managers/Team Lead",
-            brochureLinks:
-              "",
+            brochureLinks: "",
             titleCourse: "Advance AI and ML Non-Tech Courses",
             description: [
               "Data Science and AI Fundamentals for Supply Chain Professionals imparts foundational knowledge tailored for supply chain individuals in data science and AI.              ",
             ],
-            link1: "/learn/Data-Science---AI-Fundamentals-for-Supplychain-Professionals",
-            link2:
-              "",
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Supplychain-Professionals",
+            link2: "",
           },
           {
             id: 3,
@@ -321,14 +301,14 @@ export const courseDetails = [
             tagHead: "For Working Professional",
             tag: "Data science",
             brochureLinks:
-              "/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
             titleCourse: "Business Analytics Program",
             description: [
               "Tailored for healthcare, the 'Data Science and AI Fundamentals' course provides foundational insights into AI and data science principles.              ",
             ],
-            link1: "/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
-            link2:
-              "/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
+            link2: "",
           },
           {
             id: 4,
@@ -338,14 +318,13 @@ export const courseDetails = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "/learn/Data-Science---AI-for-Manufacturing---Automotive",
+              "https://course.xpertedge.co/learn/Data-Science---AI-for-Manufacturing---Automotive",
             titleCourse: "Data Analytics Program",
             description: [
               "This course equips manufacturing and automotive professionals with essential knowledge and skills in Data Science and Artificial Intelligence.              ",
             ],
-            link1: "/learn/Data-Science---AI-for-Manufacturing---Automotive",
-            link2:
-              "/learn/Data-Science---AI-for-Manufacturing---Automotive",
+            link1: "https://course.xpertedge.co/learn/Data-Science---AI-for-Manufacturing---Automotive",
+            link2: "",
           },
           {
             id: 5,
@@ -355,14 +334,14 @@ export const courseDetails = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
+              "https://course.xpertedge.co/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
             titleCourse: "Software Developer Certification",
             description: [
               "Tailored for HR professionals, this course imparts data science and analytics knowledge, enabling strategic HR management through data-driven insights.               ",
             ],
-            link1: "/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
-            link2:
-              "/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
+            link2: "",
           },
           {
             id: 6,
@@ -372,17 +351,16 @@ export const courseDetails = [
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:
-              "/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
             titleCourse: "Software Developer Certification",
             description: [
               "Tailored for marketers, this course sharpens skills in leveraging data insights, optimizing campaigns, and achieving measurable results through informed decisions.              ",
             ],
-            link1: "/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
-            link2:
-              "/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
+            link2: "",
           },
         ],
-
       },
     ],
   },

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { BiSearch } from 'react-icons/bi';
 import { BsX } from 'react-icons/bs'; // Import close icon
 import styles from './SearchBar.module.css';
-import courseData from '@/Data/NavbarData/tabData.json';
+import courseData from '@/Data/NavbarData/TabData.json';
 import { useRouter } from 'next/router';
 import { FaStar } from "react-icons/fa";
 

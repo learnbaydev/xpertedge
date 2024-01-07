@@ -49,12 +49,12 @@ export const TabData = [
       {
         CName: "Python For Non Programmers         ",
         hours: "",
-        url: "/learn/Python-For-Non-Programmers",
+        url: "https://course.xpertedge.co/learn/Python-For-Non-Programmers",
       },
       {
         CName: "Python Programming",
         hours: "",
-        url: "/learn/Python-Programming",
+        url: "https://course.xpertedge.co/learn/Python-Programming",
       },
       {
         CName: "Object oriented programming in Python        ",
@@ -64,48 +64,48 @@ export const TabData = [
       {
         CName: "  Data analytics with Python",
         hours: "",
-        url: "/learn/Data-analytics-with-Python",
+        url: "https://course.xpertedge.co/learn/Data-analytics-with-Python",
       },
 
       {
         CName: "  Statistics Fundamentals",
         hours: "",
-        url: "/learn/Statistics-Fundamentals",
+        url: "https://course.xpertedge.co/learn/Statistics-Fundamentals",
       },
       {
         CName: "Machine Learning Foundation",
         hours: "",
-        url: "/learn/ML---Only-half-algorithms",
+        url: "https://course.xpertedge.co/learn/ML---Only-half-algorithms",
       },
       {
         CName: "Deep Learning Foundations        ",
         hours: "",
-        url: "/learn/Deep-Learning-Foundations",
+        url: "https://course.xpertedge.co/learn/Deep-Learning-Foundations",
       },
       {
         CName: "Basics to Advance Excel        ",
         hours: "",
-        url: "/learn/Basics-to-Advance-Excel",
+        url: "https://course.xpertedge.co/learn/Basics-to-Advance-Excel",
       },
       {
         CName: "PowerBI Fundamentals        ",
         hours: "",
-        url: "/learn/PowerBI-Fundamentals",
+        url: "https://course.xpertedge.co/learn/PowerBI-Fundamentals",
       },
       {
         CName: "SQL and Database Fundamentals        ",
         hours: "",
-        url: "/learn/SQL-and-Database-Fundamentals",
+        url: "https://course.xpertedge.co/learn/SQL-and-Database-Fundamentals",
       },
       {
         CName: "Tableau Basics        ",
         hours: "",
-        url: "/learn/Tableau-Basics",
+        url: "https://course.xpertedge.co/learn/Tableau-Basics",
       },
       {
         CName: "Projects - Domain wise projects         ",
         hours: "",
-        url: "/learn/Projects---Domain-wise-projects",
+        url: "https://course.xpertedge.co/learn/Projects---Domain-wise-projects",
       },
       // {
       //   CName: "Career Transition Guide  - Bundle        ",
@@ -132,37 +132,37 @@ export const TabData = [
         CName:
           "Data Science and AI Fundamentals for BFSI Professionals        ",
         hours: "",
-        url: "/learn/Data-Science-and-AI-Fundamentals-for-BFSI-Professionals",
+        url: "https://course.xpertedge.co/learn/Data-Science-and-AI-Fundamentals-for-BFSI-Professionals",
       },
       {
         CName:
           "Data Science and AI Fundamentals for Supply chain professionals        ",
         hours: "",
-        url: "/learn/Data-Science---AI-Fundamentals-for-Supplychain-Professionals",
+        url: "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Supplychain-Professionals",
       },
       {
         CName:
           "Data Science and AI Fundamentals for healthcare Professionals        ",
         hours: "",
-        url: "/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
+        url: "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
       },
       {
         CName:
           "Data Science and AI Fundamentals for Manufacturing & Automotive Professionals        ",
         hours: "",
-        url: "/learn/Data-Science---AI-for-Manufacturing---Automotive",
+        url: "https://course.xpertedge.co/learn/Data-Science---AI-for-Manufacturing---Automotive",
       },
       {
         CName:
           "Data Science and Analytics Fundamentals for HR Professionals        ",
         hours: "",
-        url: "/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
+        url: "https://course.xpertedge.co/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
       },
       {
         CName:
           "Data Science and Analytics Fundamentals for Marketing Professionals        ",
         hours: "",
-        url: "/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
+        url: "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
       },
 
       ,

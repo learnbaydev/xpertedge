@@ -1,58 +1,58 @@
 [
     {
       "id": 1,
-      "title": "Python For Non Programmers       ",
+      "title": "Python For Non Programmers",
       "description": "Description of Course 1",
       "Duration":"11Months",
       "rating": 4.5,
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-1.webp",
-      "url": ""
+      "url": "https://course.xpertedge.co/learn/Python-For-Non-Programmers"
     },
     {
       "id": 2,
-      "title": "Python Programming       ",
+      "title": "Python Programming",
       "description": "Description of Course 2",
       "Duration":"7 Months",
       "rating": 4.5,
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-1.webp",
-      "url": "/learn/Python-Programming"
+      "url": "https://course.xpertedge.co/learn/Python-Programming"
     },
     {
       "id": 3,
-      "title": "Object oriented programming in Python      ",
+      "title": "Data analytics with Python",
       "description": "Description of Course 3",
       "Duration":"18 Months",
       "rating": 4.5,
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/cloud-computing/card-cd.webp",
-      "url": ""
+      "url": "https://course.xpertedge.co/learn/Data-analytics-with-Python"
     },
     {
       "id": 4,
-      "title": "Object oriented programming in Python      ",
+      "title": "Statistics Fundamentals",
       "description": "Description of Course 4",
       "Duration":"11 Months",
       "rating": 4.9,
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/masters-11.webp",
-      "url": "" 
+      "url": "https://course.xpertedge.co/learn/Statistics-Fundamentals" 
       
     },
     {
       "id": 5,
-      "title": "Statistics Fundamentals      ",
+      "title": "Machine Learning Foundation",
       "description": "Description of Course 5",
       "Duration":"5 Months",
       "rating": 4.8,
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
-      "url": "/learn/Statistics-Fundamentals" 
+      "url": "https://course.xpertedge.co/learn/ML---Only-half-algorithms" 
     },
     {
       "id": 6,
-      "title": "Machine Learning Foundation      ",
+      "title": "Deep Learning Foundations",
       "description": "Description of Course 5",
       "Duration":"9 Months",
       "rating": 4.9,
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
-      "url": "/learn/ML---Only-half-algorithms" 
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
     }
   ]
   

@@ -9,7 +9,7 @@ import Image from "next/image";
 import Link from "next/link";
 // import SearchBar from "../../../../pages/search"
 import Search from "@/components/xpertEdge/SerachBar/search";
-import courseData from "../../../../Data/NavbarData/tabData.json" 
+import courseData from "../../../../Data/NavbarData/TabData.json" 
 
 
 const NavbarContent = ({ adPage, setPopups }) => {

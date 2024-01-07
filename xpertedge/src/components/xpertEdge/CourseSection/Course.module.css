@@ -493,8 +493,8 @@
     gap: 0;
     grid-template-columns: 42% 53% 60% 30%;
     height: max-content;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden; */
     margin-bottom: 0px;
   }
 
@@ -1139,8 +1139,8 @@
     gap: 0;
     grid-template-columns: 42% 53% 60% 30%;
     height: max-content;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    /* overflow-x: scroll; */
+    /* overflow-y: hidden; */
     margin-bottom: 0px;
     gap: 40px;
   }

@@ -754,6 +754,7 @@
   flex-flow: column;
   border-radius: 8px;
   background-color: white;
+  height: 400px;
 }
 .slideWrap {
   background-color: white;

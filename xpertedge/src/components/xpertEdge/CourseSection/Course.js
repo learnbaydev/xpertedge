@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
-import { TbListDetails } from "react-icons/tb";
+
 import SwiperCore, { Scrollbar } from 'swiper/core';
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Course.module.css";
 
-import { FaDownload } from "react-icons/fa";
+
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
@@ -14,7 +14,7 @@ import Popup from "../../Global/Popup/Popup";
 import { courseDetails } from "./courseDetails";
 
 import { BsCheckLg,} from "react-icons/bs";
-import { BiTimeFive } from "react-icons/bi";
+
 import { FaReact } from "react-icons/fa";
 import { IoPersonOutline, IoNewspaperOutline } from "react-icons/io5";
 

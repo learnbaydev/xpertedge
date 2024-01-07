@@ -1,16 +1,15 @@
 import React, { useState, useEffect } from "react";
 import styles from "./Navbar.module.css";
 import dynamic from "next/dynamic";
-import { FaChevronDown, FaChevronUp, FaBars } from "react-icons/fa";
+import { FaChevronDown, FaChevronUp,  } from "react-icons/fa";
 const Button = dynamic(() => import("../../../Global/Button/Button"));
 const Tabs = dynamic(() => import("../../../Global/Tabs/Tabs"));
 // import { menuItem } from "./NavbarData";
 import Image from "next/image";
 import Link from "next/link";
 // import SearchBar from "../../../../pages/search"
-import { IoIosArrowDown } from "react-icons/io";
 import Search from "@/components/xpertEdge/SerachBar/search";
-import courseData from "@/Data/NavbarData/TabData"
+import courseData from "../../../../Data/NavbarData/tabData.json" 
 
 
 const NavbarContent = ({ adPage, setPopups }) => {
@@ -55,7 +54,8 @@ const NavbarContent = ({ adPage, setPopups }) => {
           <Image
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpertEdgeLogo.webp"
             alt="Learnbay"
-            quality={100}
+            quality={100} 
+            loading="lazy"
             priority
             style={{ objectFit: "contain" }}
             width={mobile ? "135" : "230"}
@@ -68,6 +68,7 @@ const NavbarContent = ({ adPage, setPopups }) => {
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpertEdgeLogo.webp"
                 alt="Learnbay"
                 quality={100}
+                loading="lazy"
                 priority
                 width={mobile ? "135" : "250"}
                 height={60}

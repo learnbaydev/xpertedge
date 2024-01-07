@@ -10,7 +10,7 @@ import Link from "next/link";
 // import SearchBar from "../../../../pages/search"
 import { IoIosArrowDown } from "react-icons/io";
 import Search from "@/components/xpertEdge/SerachBar/search";
-import courseData from "@/Data/NavbarData/TabData.json"
+import courseData from "@/Data/NavbarData/TabData"
 
 
 const NavbarContent = ({ adPage, setPopups }) => {

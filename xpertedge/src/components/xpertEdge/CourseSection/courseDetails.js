@@ -19,7 +19,7 @@ export const courseDetails = [
             description: [
               "Designed for beginners, 'Python for Non-Programmers' course introduces fundamental Python concepts to individuals with minimal programming experience.              ",
             ],
-            link1: "learn/Python-For-Non-Programmers",
+            link1: "/learn/Python-For-Non-Programmers",
             link2:
               "",
           },
@@ -326,7 +326,7 @@ export const courseDetails = [
             description: [
               "Tailored for healthcare, the 'Data Science and AI Fundamentals' course provides foundational insights into AI and data science principles.              ",
             ],
-            link1: "",
+            link1: "/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
             link2:
               "/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
           },
@@ -343,7 +343,7 @@ export const courseDetails = [
             description: [
               "This course equips manufacturing and automotive professionals with essential knowledge and skills in Data Science and Artificial Intelligence.              ",
             ],
-            link1: "",
+            link1: "/learn/Data-Science---AI-for-Manufacturing---Automotive",
             link2:
               "/learn/Data-Science---AI-for-Manufacturing---Automotive",
           },
@@ -360,7 +360,7 @@ export const courseDetails = [
             description: [
               "Tailored for HR professionals, this course imparts data science and analytics knowledge, enabling strategic HR management through data-driven insights.               ",
             ],
-            link1: "",
+            link1: "/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
             link2:
               "/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
           },
@@ -377,7 +377,7 @@ export const courseDetails = [
             description: [
               "Tailored for marketers, this course sharpens skills in leveraging data insights, optimizing campaigns, and achieving measurable results through informed decisions.              ",
             ],
-            link1: "",
+            link1: "/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
             link2:
               "/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
           },

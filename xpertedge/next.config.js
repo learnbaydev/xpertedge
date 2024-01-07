@@ -5,7 +5,7 @@ module.exports = {
   basePath: '/your-base-path',
 }
 module.exports = {
-  assetPrefix: isProd ? "https://d32and0ii3b8oy.cloudfront.net/" : "",
+  // assetPrefix: isProd ? "https://d32and0ii3b8oy.cloudfront.net/" : "",
   eslint: {
     ignoreDuringBuilds: true,
   },

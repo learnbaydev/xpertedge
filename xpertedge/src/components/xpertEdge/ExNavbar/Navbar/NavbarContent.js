@@ -4,7 +4,7 @@ import dynamic from "next/dynamic";
 import { FaChevronDown, FaChevronUp, FaBars } from "react-icons/fa";
 const Button = dynamic(() => import("../../../Global/Button/Button"));
 const Tabs = dynamic(() => import("../../../Global/Tabs/Tabs"));
-import { menuItem } from "./NavbarData";
+// import { menuItem } from "./NavbarData";
 import Image from "next/image";
 import Link from "next/link";
 // import SearchBar from "../../../../pages/search"

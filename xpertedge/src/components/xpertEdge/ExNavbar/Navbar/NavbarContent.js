@@ -55,7 +55,6 @@ const NavbarContent = ({ adPage, setPopups }) => {
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpertEdgeLogo.webp"
             alt="Learnbay"
             quality={100} 
-            loading="lazy"
             priority
             style={{ objectFit: "contain" }}
             width={mobile ? "135" : "230"}
@@ -68,7 +67,6 @@ const NavbarContent = ({ adPage, setPopups }) => {
                 src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpertEdgeLogo.webp"
                 alt="Learnbay"
                 quality={100}
-                loading="lazy"
                 priority
                 width={mobile ? "135" : "250"}
                 height={60}

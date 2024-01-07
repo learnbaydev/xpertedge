@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Button from "../../Global/Button/Button";
 import styles from "./FirstSection.module.css";
-import { FaPlay } from "react-icons/fa";
 import React, { useState, useEffect } from "react";
 
 const FirstContent = ({

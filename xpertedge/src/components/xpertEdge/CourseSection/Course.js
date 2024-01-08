@@ -178,12 +178,12 @@ const Course = ({
                       </h5>
                       <div className={styles.gridPanel}>
                         <Swiper
-                          slidesPerView={value}
-                          spaceBetween={mobile ? 10 : 30}
-                          scrollbar={{ draggable: true }}
-                          // grabCursor={true}
-                          modules={[ Scrollbar]}
-                          className="mySwiper"
+                         slidesPerView={value}
+                         spaceBetween={mobile ? 10 : 50}
+                         scrollbar={{ draggable: true }}
+                         loop={true}  // Add the loop prop to enable infinite loop
+                         modules={[Scrollbar]}
+                         className="mySwiper"
                         >
                           {courseDetail.courseDetails.map(
                             (viewAllData, index) => {
@@ -262,8 +262,8 @@ const Course = ({
                                       </a>
                                     ) : (
                                       <a
-                                      href={link1}
                                         // href={`${process.env.BASE_PATH}${link1}`}
+                                        href={link1}
                                         className={styles.imgWrap}
                                       >
                                         <div className="bgWrapcourse">
@@ -442,8 +442,8 @@ const Course = ({
                                           </a>
                                         ) : (
                                           <a
-                                          href={link1}
                                             // href={`${process.env.BASE_PATH}${link1}`}
+                                            href={link1}
                                             className={styles.link1}
                                           >
                                             <button

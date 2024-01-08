@@ -7,7 +7,14 @@ const Tabs = ({ handleIcon }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const handleMenuChange = (index) => {
-    setSelectedIndex(index);
+    // Check if the same tab is clicked again
+    if (selectedIndex === index) {
+      // Close the tab by setting selectedIndex to null
+      setSelectedIndex(null);
+    } else {
+      // Open the selected tab
+      setSelectedIndex(index);
+    }
   };
 
   const handleLeavePanel = () => {
@@ -23,12 +30,12 @@ const Tabs = ({ handleIcon }) => {
         {selectedData.courseName.map((course, index) => (
           <div className={styles.Row} key={index}>
             <a href={course.url}>
-            <div className={styles.Program} onClick={() => handleIcon(false)}>
-              <div className={styles.ProLeft}>
-                <h5>{course.CName}</h5>
-                <span>{course.hours}</span>
+              <div className={styles.Program} onClick={() => handleIcon(false)}>
+                <div className={styles.ProLeft}>
+                  <h5>{course.CName}</h5>
+                  <span>{course.hours}</span>
+                </div>
               </div>
-            </div>
             </a>
           </div>
         ))}
@@ -46,7 +53,7 @@ const Tabs = ({ handleIcon }) => {
           {TabData.map((data, index) => (
             <div key={data.id}>
               <span
-                onMouseEnter={() => handleMenuChange(index)}
+                onClick={() => handleMenuChange(index)}
                 className={
                   selectedIndex === index ? styles.spanActive : styles.span
                 }

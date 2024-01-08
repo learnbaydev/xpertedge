@@ -31,7 +31,7 @@ export const courseDetails = [
             brochureLinks: "",
             titleCourse: "Software Developer Certification",
             description: [
-              "This course is for individuals with some programming experience or those who completed an introductory course.              ",
+              `A course on "Python Programming" typically covers a more comprehensive and in-depth exploration of the Python programming language.`,
             ],
             link1: "https://course.xpertedge.co/learn/Python-Programming",
             link2: "",
@@ -83,6 +83,8 @@ export const courseDetails = [
             link1: "https://course.xpertedge.co/learn/Statistics-Fundamentals",
             link2: "",
           },
+
+          
           // {
           //   id: 5,
           //   img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+11.webp",
@@ -125,7 +127,7 @@ export const courseDetails = [
         courseDetails: [
           {
             id: 1,
-            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+5.webp",
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/ML-FOUNDATION-min.webp",
             title: "Machine Learning           ",
             title1: "Foundation   ",
             tag: "Data science",

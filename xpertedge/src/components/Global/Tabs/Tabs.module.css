@@ -58,6 +58,7 @@
 .RowWrap {
   display: grid;
   grid-template-columns: 49% 49%;
+   /* box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px; */
 }
 
 .Row {
@@ -124,6 +125,12 @@
     width: 247px;
   }
 }
+@media (max-width: 641px){
+.Program {
+  width: 100%;
+  height: 50px;
+}
+}
 
 @media (min-width: 320px) and (max-width: 798px) {
   .MenuTabs {
@@ -137,8 +144,9 @@
   }
   .Program {
     margin: 10px;
-    box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px;
+    /* box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px; */
   }
+  
 
   .leftPanel {
     margin-right: 0px;

@@ -31,7 +31,7 @@ const Course = ({
 }) => {
   // console.log("course component");
   const [mobile, setMobile] = useState(false);
-  const [value, setValue] = useState(3.68);
+  const [value, setValue] = useState(3);
   const [popups, setPopups] = useState(false);
 
   const [CourseLoop, setCourseLoop] = useState([
@@ -39,6 +39,7 @@ const Course = ({
     { title: "Non-Tech Courses", value: false },
     { title: "Resume Building", value: false },
   ]);
+  
 
   const menuChange = (title, index) => {
     if (title === CourseLoop[index].title) {
@@ -59,30 +60,45 @@ const Course = ({
   const [titleCourse, setTitleCourse] = useState();
   const [brochureLinks, setBrochureLinks] = useState();
 
+ 
   useEffect(() => {
-    let width = window.innerWidth;
-    if (width < 481) {
-      setValue(1.4);
-      setMobile(true);
-    }
-    if (width < 600) {
-      setValue(1);
-      setMobile(true);
-    } else if (width <= 641) {
-      setValue(1.6);
-    } else if (width <= 801) {
-      setValue(2);
-    } else if (width <= 961) {
-      setValue(2.3);
-    } else if (width <= 1025) {
-      setValue(2.6);
-    } else if (width <= 1280) {
-      setValue(3);
-    } else if (width <= 1281) {
-      setValue(2.4);
-    } else if (width > 1281) {
-      setValue(3.1);
-    }
+    const handleResize = () => {
+      const width = window.innerWidth;
+
+      if (width < 481) {
+        setValue(1.2);
+        setMobile(true);
+
+      } else if (width < 600) {
+        setValue(1);
+        setMobile(true);
+      } else if (width <= 641) {
+        setValue(1);
+      } else if (width <= 801) {
+        setValue(2);
+      } else if (width <= 961) {
+        setValue(2.3);
+      } else if (width <= 1024) {
+        setValue(2.8);
+      } else if (width <= 1280) {
+        setValue(3);
+      } else if (width <= 1281) {
+        setValue(2.4);
+      } else if (width > 1281) {
+        setValue(3);
+      }
+    };
+
+    // Initial setup
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup the event listener on component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
   return (
     <div className={styles.Course} id="course">
@@ -128,18 +144,18 @@ const Course = ({
                 }
               >
                 {CourseData.title === "Technical Courses" ? (
-                  <FaReact style={{ color: "grey", marginRight: "5px", size:"40px" }} />
+                  <FaReact className={styles.iconslide} style={`{ color: "grey", marginRight: "5px", size:"40px" } ${styles.ActiveSpan}`} />
                 ) : (
                   ""
                 )}
                 {CourseData.title === "Non-Tech Courses" ? (
-                  <IoPersonOutline style={{ color: "grey", marginRight: "5px" }} />
+                  <IoPersonOutline className={styles.iconslide} style={`{ color: "grey", marginRight: "5px" } ${styles.ActiveSpan}`} />
                 ) : (
                   ""
                 )}
 
                 {CourseData.title === "Resume Building" ? (
-                  <IoNewspaperOutline style={{ color: "grey", marginRight: "5px" }} />
+                  <IoNewspaperOutline  className={styles.iconslide} style={`{ color: "grey", marginRight: "5px" }${styles.ActiveSpan}`} />
                 ) : (
                   ""
                 )}
@@ -162,12 +178,12 @@ const Course = ({
                       </h5>
                       <div className={styles.gridPanel}>
                         <Swiper
-                          slidesPerView={value}
-                          spaceBetween={mobile ? 10 : 30}
-                          scrollbar={{ draggable: true }}
-                          // grabCursor={true}
-                          modules={[ Scrollbar]}
-                          className="mySwiper"
+                         slidesPerView={value}
+                         spaceBetween={mobile ? 10 : 50}
+                         scrollbar={{ draggable: true }}
+                         loop={true}  // Add the loop prop to enable infinite loop
+                         modules={[Scrollbar]}
+                         className="mySwiper"
                         >
                           {courseDetail.courseDetails.map(
                             (viewAllData, index) => {
@@ -232,7 +248,7 @@ const Course = ({
                                         }}
                                         className={styles.imgWrap}
                                       >
-                                        <div className="bgWrap">
+                                        <div className={`"bgWrapcourse" ${styles.bgwrap}`}>
                                           <Image
                                             src={img}
                                             fill={true}
@@ -250,7 +266,7 @@ const Course = ({
                                         href={link1}
                                         className={styles.imgWrap}
                                       >
-                                        <div className="bgWrap">
+                                        <div className="bgWrapcourse">
                                           <Image
                                             src={img}
                                             fill={true}
@@ -269,8 +285,8 @@ const Course = ({
                                         newDesign
                                           ? { borderRadius: "20px" }
                                           : {
-                                              borderRadius: "8px",
-                                              width: "92%",
+                                              borderRadius: "0px 0px 10px 10px",
+                                              width: "100%%",
                                               marginTop: "-12px",
                                               zIndex: "0",
                                               boxShadow:
@@ -288,7 +304,7 @@ const Course = ({
                                             }}
                                             className={styles.imgWrap}
                                           >
-                                            <div className="bgWrap">
+                                            <div className="bgWrapcourse">
                                               <Image
                                                 src={img}
                                                 fill={true}
@@ -306,7 +322,7 @@ const Course = ({
                                             href={link1}
                                             className={styles.imgWrap}
                                           >
-                                            <div className="bgWrap">
+                                            <div className="bgWrapcourse">
                                               <Image
                                                 src={img}
                                                 fill={true}
@@ -444,7 +460,7 @@ const Course = ({
                                                     }
                                                   : {
                                                       borderRadius:
-                                                        "0 0 8px 0px",
+                                                        "",
                                                     }
                                               }
                                             >

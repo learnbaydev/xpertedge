@@ -1,6 +1,13 @@
 .Course {
   padding: 40px 100px;
 }
+.bgwrap{
+  border-radius: 20px;
+}
+.iconslide{
+margin-right: 6px;
+
+}
 
 .Course h2 {
   color: black;
@@ -73,7 +80,9 @@
   transition: transform 0.3s ease-out 0s;
   pointer-events: auto;
 }
-
+.bgwrap{
+width: 200px;
+}
 .courses {
   background: #ffffff;
   margin-top: 30px;
@@ -639,9 +648,10 @@
   font-size: 20px;
 }
 
+
 .contButton {
-  width: 96%;
-  margin-left: 15px;
+  width: 100%;
+  /* margin-left: 15px; */
   margin-top: -0px;
   z-index: 1;
   background-color: white;
@@ -756,9 +766,7 @@
   background-color: white;
   height: 400px;
 }
-.slideWrap {
-  background-color: white;
-}
+
 .newSliderWrap,
 .newSliderWrapOrange {
   display: flex !important;
@@ -873,12 +881,12 @@
 .imgWrap {
   display: flex;
     height: 174px;
-    width: 350px;
+    width: 100%;
     background-color: white;
     border-radius: 30px;
     position: relative;
     z-index: 1;
-    margin: 8px 8px 8px 15px;
+    /* margin: 8px 8px 8px 15px; */
 }
 
 .leftSide h6 {
@@ -925,7 +933,7 @@
   color: #030303;
   align-items: center;
   font-size: 12px;
-  font-weight: 200;
+  font-weight: 400;
   margin: 0;
   margin-top: 10px;
   line-height: 21px;
@@ -964,6 +972,7 @@
   height: 100%;
   border: 0;
   font-size: 14px;
+  border-radius: 0px 0px 10px 10px;
 }
 .btnWrapper a {
   display: flex;
@@ -1023,6 +1032,7 @@
   .ActiveSpan {
     padding: 15px;
     text-align: center;
+
   }
   .SliderWrap {
     width: 360px;
@@ -1165,7 +1175,7 @@
   }
   .imgWrap {
     height: 155px;
-    width: 92%;
+    width:100%;
   }
   .hr {
     top: 36%;
@@ -1193,6 +1203,7 @@
   .contentBox {
     margin-top: 0px;
     overflow: hidden;
+    height: 170px;
   }
 
   .SliderWrap {
@@ -1204,6 +1215,7 @@
     height: 470px;
     width: 100%;
     background-color: white;
+   
   }
   .contentBox {
     background-color: transparent;

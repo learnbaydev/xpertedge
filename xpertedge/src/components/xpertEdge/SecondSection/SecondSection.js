@@ -26,7 +26,7 @@ function SecondSection() {
 
         <div className={styles.ftwo}>
           <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/userCertificate.jpeg"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/expert-icon-one.webp"
             width={60}
             height={60}
             loading="lazy"
@@ -38,7 +38,7 @@ function SecondSection() {
 
         <div className={styles.ftwo}>
           <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/studyIcon.jpeg"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/expert-icon-two.webp"
             width={60}
             height={60}
             loading="lazy"
@@ -50,7 +50,7 @@ function SecondSection() {
 
         <div className={styles.ftwo}>
           <Image
-            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/lock.jpeg"
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/exper-icon-three.webp"
             width={60}
             height={60}
             loading="lazy"

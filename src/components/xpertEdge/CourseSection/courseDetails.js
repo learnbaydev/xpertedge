@@ -22,7 +22,7 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 5,
+            id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+3.webp",
             title: "Python             ",
             title1: "Programming ",
@@ -37,7 +37,7 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 2,
+            id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+4.webp",
             title: "Object oriented            ",
             title1: "programming in Python ",
@@ -54,7 +54,7 @@ export const courseDetails = [
               "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Advance+Artifical+Intelligence+%26+ML+Certification+Program.pdf",
           },
           {
-            id: 3,
+            id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy.webp",
             title: "Data analytics with          ",
             title1: "Python   ",
@@ -69,7 +69,7 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 4,
+            id: 5,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+2.webp",
             title: "Statistics            ",
             title1: "Fundamentals ",
@@ -140,7 +140,7 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 5,
+            id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+6.webp",
             title: "Deep Learning         ",
             title1: "Foundations     ",
@@ -155,7 +155,7 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 2,
+            id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+7.webp",
             title: "Basics to Advance          ",
             title1: " Excel  ",
@@ -170,7 +170,7 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 3,
+            id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+8.webp",
             title: "PowerBI         ",
             title1: "Fundamentals    ",
@@ -185,7 +185,7 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 4,
+            id: 5,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+9.webp",
             title: "SQL and Database          ",
             title1: "Fundamentals   ",

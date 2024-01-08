@@ -1,10 +1,9 @@
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-import SwiperCore, { Scrollbar } from 'swiper/core';
+import { Scrollbar } from "swiper/core";
 import { Swiper, SwiperSlide } from "swiper/react";
 import styles from "./Course.module.css";
-
 
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -13,14 +12,10 @@ import Form from "../../Global/Form/Form";
 import Popup from "../../Global/Popup/Popup";
 import { courseDetails } from "./courseDetails";
 
-import { BsCheckLg,} from "react-icons/bs";
+import { BsCheckLg } from "react-icons/bs";
 
 import { FaReact } from "react-icons/fa";
-import { IoPersonOutline, IoNewspaperOutline } from "react-icons/io5";
-
-
-
-
+import { IoNewspaperOutline, IoPersonOutline } from "react-icons/io5";
 
 const Course = ({
   dataScience,
@@ -39,7 +34,6 @@ const Course = ({
     { title: "Non-Tech Courses", value: false },
     { title: "Resume Building", value: false },
   ]);
-  
 
   const menuChange = (title, index) => {
     if (title === CourseLoop[index].title) {
@@ -60,7 +54,6 @@ const Course = ({
   const [titleCourse, setTitleCourse] = useState();
   const [brochureLinks, setBrochureLinks] = useState();
 
- 
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
@@ -68,7 +61,6 @@ const Course = ({
       if (width < 481) {
         setValue(1.2);
         setMobile(true);
-
       } else if (width < 600) {
         setValue(1);
         setMobile(true);
@@ -93,11 +85,11 @@ const Course = ({
     handleResize();
 
     // Add event listener for window resize
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Cleanup the event listener on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
   return (
@@ -144,18 +136,27 @@ const Course = ({
                 }
               >
                 {CourseData.title === "Technical Courses" ? (
-                  <FaReact className={styles.iconslide} style={`{ color: "grey", marginRight: "5px", size:"40px" } ${styles.ActiveSpan}`} />
+                  <FaReact
+                    className={styles.iconslide}
+                    style={`{ color: "grey", marginRight: "5px", size:"40px" } ${styles.ActiveSpan}`}
+                  />
                 ) : (
                   ""
                 )}
                 {CourseData.title === "Non-Tech Courses" ? (
-                  <IoPersonOutline className={styles.iconslide} style={`{ color: "grey", marginRight: "5px" } ${styles.ActiveSpan}`} />
+                  <IoPersonOutline
+                    className={styles.iconslide}
+                    style={`{ color: "grey", marginRight: "5px" } ${styles.ActiveSpan}`}
+                  />
                 ) : (
                   ""
                 )}
 
                 {CourseData.title === "Resume Building" ? (
-                  <IoNewspaperOutline  className={styles.iconslide} style={`{ color: "grey", marginRight: "5px" }${styles.ActiveSpan}`} />
+                  <IoNewspaperOutline
+                    className={styles.iconslide}
+                    style={`{ color: "grey", marginRight: "5px" }${styles.ActiveSpan}`}
+                  />
                 ) : (
                   ""
                 )}
@@ -178,12 +179,12 @@ const Course = ({
                       </h5>
                       <div className={styles.gridPanel}>
                         <Swiper
-                         slidesPerView={value}
-                         spaceBetween={mobile ? 10 : 50}
-                         scrollbar={{ draggable: true }}
-                         loop={true}  // Add the loop prop to enable infinite loop
-                         modules={[Scrollbar]}
-                         className="mySwiper"
+                          slidesPerView={value}
+                          spaceBetween={mobile ? 10 : 50}
+                          scrollbar={{ draggable: true }}
+                          loop={true} // Add the loop prop to enable infinite loop
+                          modules={[Scrollbar]}
+                          className="mySwiper"
                         >
                           {courseDetail.courseDetails.map(
                             (viewAllData, index) => {
@@ -248,7 +249,9 @@ const Course = ({
                                         }}
                                         className={styles.imgWrap}
                                       >
-                                        <div className={`"bgWrapcourse" ${styles.bgwrap}`}>
+                                        <div
+                                          className={`"bgWrapcourse" ${styles.bgwrap}`}
+                                        >
                                           <Image
                                             src={img}
                                             fill={true}
@@ -362,7 +365,6 @@ const Course = ({
                                         <hr className={styles.hr} />
                                         <div className={styles.paraDiv}>
                                           <p className={styles.singleP}>
-                                           
                                             {/* <IoTimeOutline
                                           className={styles.timeIcon}
                                         />{" "} */}
@@ -379,7 +381,7 @@ const Course = ({
                                             {/* <TbCurrencyRupee
                                           className={styles.checkCircle}
                                         /> */}
-                                           
+
                                             {description[1]}
                                           </p>
                                           {description.length >= 3 ? (
@@ -459,8 +461,7 @@ const Course = ({
                                                         "0 0 20px 0",
                                                     }
                                                   : {
-                                                      borderRadius:
-                                                        "",
+                                                      borderRadius: "",
                                                     }
                                               }
                                             >

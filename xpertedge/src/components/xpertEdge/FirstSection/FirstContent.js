@@ -84,7 +84,7 @@ const FirstContent = ({
             <div className="bgImg">
               <Image
                 width={380}
-                height={350}
+                height={390}
                 src={FirstRightImg}
                 // style={{ objectFit: "contain" }}
                 alt="data science course"

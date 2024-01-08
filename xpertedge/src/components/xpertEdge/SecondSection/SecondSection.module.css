@@ -42,6 +42,7 @@
     font-weight: 400;
     text-align: center;
     line-height: 140%;
+    margin: 0px;
    
 }
 
@@ -71,21 +72,26 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 @media (max-width: 641px) {
     .maindiv{
         display: grid;
-        grid-template-columns: 40% 50%;
+        grid-template-columns: 45% 45%;
         margin: 10px;
         padding: 10px 6px;
         grid-gap: 3px 40px;
-        gap: 3px 40px;
+        grid-gap: 3px 40px;
+        gap: 10px 20px;
         border-radius: 6px;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+   
 }
 
 .gptimg img {
     width: 140px;
     height: auto;
-    margin-left: 15px;
+   
 }
 .fone {
-    margin-top: 6px;
+    margin-top: -4px;
 }
 .inone {
     margin-top: 1px;
@@ -95,8 +101,8 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .ftwo {
     width: 183px;
-    height: 132px;
-    font-size: 12px;
+    /* height: 132px; */
+    /* font-size: 12px; */
     padding: 12px 6px;
     gap: 16px;
     justify-content: center;

@@ -93,6 +93,17 @@ a {
   overflow: hidden;
   z-index: -1;
 }
+.bgWrapcourse{
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+ 
+  width: 100%;
+  overflow: hidden;
+  z-index: -1;
+  border-radius: 10px 10px 0px 0px
+}
 .flexBox {
   display: flex;
 }

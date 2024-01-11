@@ -1,9 +1,9 @@
 .maindiv {
     display: flex;
     /* grid-template-columns: 28% 24% 26% 30%; */
-    border-radius: 22.048px;
-    /* opacity: 0.3; */
-    background: linear-gradient(90deg, #6daff0 0%, #dff8b9 49.88%, #7bb9e2 100%);
+    border-radius: 20.048px;
+    /* opacity: 0.5; */
+    background: linear-gradient(90deg, #f9e7cd 0%, #ebfcd2 49.88%, #fce5c2 100%);
     margin: 42px 60px;
     padding: 20px;
     gap: 38px;
@@ -25,7 +25,7 @@
 
 
 .inone {
-    border-radius: 20px;
+    border-radius: 16px;
     width: 264px;
     background: #FFF;
     padding: 20px 19px;
@@ -48,7 +48,7 @@
 
 
 .ftwo {
-    border-radius: 20px;
+    border-radius: 16px;
     width: 280px;
     background: #FFF;
     padding: 24px 14px;
@@ -58,9 +58,23 @@
     align-items: center;
     gap: 20px;
     text-align: center;
-    border-radius: 22.048px;
+    /* border-radius: 22.048px; */
 box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 
+}
+.ftwocenter{
+    border-radius: 16px;
+    width: 280px;
+    background: #FFF;
+    padding: 24px 14px;
+    margin: 10px 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    /* text-align: center; */
+    /* border-radius: 22.048px; */
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .icons {
@@ -70,55 +84,85 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 @media (max-width: 641px) {
+
+    .maindiv {
+        background-color: #ebfcd2;
+    }
     .maindiv{
-        display: grid;
-        grid-template-columns: 45% 45%;
-        margin: 10px;
-        padding: 10px 6px;
-        grid-gap: 3px 40px;
-        grid-gap: 3px 40px;
-        gap: 10px 20px;
-        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        background: none;
         align-items: center;
         width: 100%;
         margin: auto;
+    
    
 }
+.icons {
+    font-size: 30px;
+    color: #F99600;
+    
+}
+
 
 .gptimg img {
-    width: 140px;
-    height: auto;
+   display: none;
    
 }
 .fone {
     margin-top: -4px;
 }
 .inone {
-    margin-top: 1px;
-    border-radius: 8px;
-    padding: 23px 6px;
-    width: 180px;
+display: none;
 }
 .ftwo {
-    width: 183px;
-    /* height: 132px; */
-    /* font-size: 12px; */
-    padding: 12px 6px;
-    gap: 16px;
-    justify-content: center;
+    width: 100%;
+    padding: 28px 16px;
+    gap: 25px;
     border-radius: 8px;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    line-height: 22px;
+
+    box-shadow: 0px 9px 14.3px 0px rgba(249, 150, 0, 0.15);
+}
+.ftwocenter{
+    width: 100%;
+    padding: 28px 16px;
+    gap: 25px;
+    border-radius: 8px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    line-height: 22px;
+
+box-shadow: 0px 9px 14.3px 0px rgba(114, 188, 0, 0.15);
 }
 .ftwo img {
     width: 40px;
     height: auto;
 }
+.ftwocenter img {
+    width: 40px;
+    height: auto;
+}
 .ftwo p{
-    font-size: 12px;
+    font-size: 16px;
     padding: 0px;
     margin: 0px;
     color: #403F3F;
     font-weight: 500;
+    text-align: left;
+}
+.ftwocenter p{
+    font-size: 16px;
+  
+    color: #403F3F;
+    font-weight: 500;
+    text-align: left;
+
 }
 .hrline{
     display: none;

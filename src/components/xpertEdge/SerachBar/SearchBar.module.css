@@ -107,25 +107,32 @@ padding: 0px 0px 0px 34px;
 .dropdown {
   position: absolute;
     margin: 11px 2px 20px 8px;
-    width: 300px;
+    width: 510px;
     top: 100%;
     left: 0;
-    width: 95%;
+    /* width: 100%; */
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px 10px;
+    height: 450px;
+    overflow-y: scroll;
+
 }
+
 
 .dropdownItem {
   /* Your styles for each dropdown item */
   padding: 10px;
   cursor: pointer;
   transition: background-color 0.3s ease; /* Add a transition effect */
+  height: fit-content;
+  
 }
 
 .dropdownItem:hover {
   background-color: #dff6bc; /* Adjust the background color on hover */
+
 }
 .courseInfo {
   display: flex;
@@ -153,6 +160,11 @@ padding: 0px 0px 0px 34px;
   margin-top: 10px;
   list-style: none;
 }
+.styles.hidden {
+  display: none;
+}
+
+/* Add your other styles here */
 
 
 @media (max-width: 641px) {
@@ -198,7 +210,7 @@ left:4px;
 }
 
 .search-field {
-  display: none;
+  /* display: none; */
   background-color: transparent;
   background-image: url(https://wp-themes.com/wp-content/themes/twentythirteen/images/search-icon.png);
   background-position: 5px center;
@@ -210,8 +222,8 @@ left:4px;
   margin: 10px 0;
   padding: 0 0 0 34px;
   position: relative;
-  -webkit-transition: width 400ms ease, background 400ms ease;
-  transition: width 400ms ease, background 400ms ease;
+  -webkit-transition: width 800ms ease, background 800ms ease;
+  transition: width 800ms ease, background 800ms ease;
   width: 0px;
   cursor: pointer;
 }

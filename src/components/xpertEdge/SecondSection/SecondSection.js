@@ -36,7 +36,7 @@ function SecondSection() {
           <p>Learn from courses designed by industry experts</p>
         </div>
 
-        <div className={styles.ftwo}>
+        <div className={`{styles.ftwo} ${styles.ftwocenter}`}>
           <Image
             src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/expert-icon-two.webp"
             width={60}

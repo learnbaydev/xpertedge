@@ -1,4 +1,5 @@
 export const TabData = [
+
   // {
   //   id: "Popular Courses",
   //   title: "Popular Courses",
@@ -46,6 +47,10 @@ export const TabData = [
     id: "Certification Program",
     title: "Technical Courses",
     courseName: [
+      {
+        Head:
+          "Free Courses       ",
+      },
       {
         CName: "Python For Non Programmers         ",
         hours: "",
@@ -107,6 +112,11 @@ export const TabData = [
         hours: "",
         url: "https://course.xpertedge.co/learn/Projects---Domain-wise-projects",
       },
+      {
+        CName: "       ",
+        hours: "",
+        url: "",
+      },
       // {
       //   CName: "Career Transition Guide  - Bundle        ",
       //   hours: "",
@@ -128,6 +138,10 @@ export const TabData = [
     id: "Master's Degree Program",
     title: "Non-technical Courses",
     courseName: [
+      {
+        Head:
+          "Free Courses       ",
+      },
       {
         CName:
           "Data Science and AI Fundamentals for BFSI Professionals        ",
@@ -163,6 +177,11 @@ export const TabData = [
           "Data Science and Analytics Fundamentals for Marketing Professionals        ",
         hours: "",
         url: "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
+      },
+      {
+        CName: "       ",
+        hours: "",
+        url: "",
       },
 
       ,

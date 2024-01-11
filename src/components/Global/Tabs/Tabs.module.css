@@ -1,6 +1,19 @@
 .wrapper {
   position: relative;
 }
+.cats{
+  padding: 10px 20px;
+  font-weight: 500;
+  color: #646464;
+  font-size: 16px;
+}
+.head{
+  font-weight: 500;
+  color: #646464;
+  font-size: 16px;
+  padding: 0px;
+  margin: 20px 0px -12px 20px;
+}
 
 .MenuTabs {
   display: flex;
@@ -9,16 +22,24 @@
   width: fit-content;
   justify-content: space-between;
   padding: 20px;
-  background-color: white;
-  box-shadow: rgba(136, 237, 253, 0.421) 0px 2px 8px 0px;
-  top: 90px;
+  /* background-color: white; */
+  top: 60px;
   left :100px;
+ 
+
 }
 
 .leftPanel {
   display: flex;
+  position: relative;
   flex-flow: column;
-  margin-right: 20px;
+  /* margin-right: 1px; */
+  /* border: 2px solid red; */
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+   
 }
 
 .leftPanel .RowWrap {
@@ -34,9 +55,10 @@
   width: 350px;
   font-size: 15px;
   padding: 10px 20px;
-  font-weight: 400;
+  font-weight: 500;
   border-radius: 5px;
-  margin-bottom: 5px;
+  margin-bottom:0px;
+ 
 }
 
 .span:hover {
@@ -45,20 +67,25 @@
 
 .spanActive {
   color: white;
-  background: #72BC00;
-  font-size: 12px;
+  background: #65A700;
+  font-size: 14px;
   padding: 15px 25px;
   margin-bottom: 10px;
+  border-radius: 0px;
 }
 
 .middlePanel {
   width: 100%;
+  background-color: #fff
 }
 
 .RowWrap {
-  display: grid;
+  display: flex;
   grid-template-columns: 49% 49%;
-   /* box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px; */
+  flex-direction: column;
+  
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
 }
 
 .Row {
@@ -71,25 +98,51 @@
 }
 
 .Program {
-  margin: 10px;
+  /* margin: 10px; */
   /* box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px; */
-  padding: 10px 20px;
-  width: 200px;
-  border-radius: 8px;
+
+  /* padding: 2px 20px; */
+  width: 350px;
+  /* border-radius: 8px; */
   align-items: center;
   cursor: pointer;
   display: flex;
   height: fit-content;
   justify-content: space-between;
   
+  
 }
 
 .Program h5 {
-  font-size: 12px;
+  color: white;
+  font-size: 14px;
+  padding: 10px 25px;
+  margin-bottom: 10px;
+  border-radius: 0px;
+  transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+
+  
+  
+ 
+
+}
+
+.Program h5:hover {
+  transform: scale(1.1);
+  color: #65A700; /* You can adjust the scale factor for zoom-in effect */
+
+
+
+}
+
+
+.Program h5 {
+  font-size: 14px;
   margin: 0;
   color: #646464;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 16px;
+  line-height: 18px;
 }
 
 .Program span {
@@ -143,7 +196,7 @@
     top: 47px;
   }
   .Program {
-    margin: 10px;
+    margin: 0px;
     /* box-shadow: rgba(150, 230, 250, 0.444) 0px 3px 8px; */
   }
   

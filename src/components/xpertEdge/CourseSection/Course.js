@@ -8,8 +8,7 @@ import styles from "./Course.module.css";
 import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
-import Form from "../../Global/Form/Form";
-import Popup from "../../Global/Popup/Popup";
+
 import { courseDetails } from "./courseDetails";
 
 import { BsCheckLg } from "react-icons/bs";
@@ -18,11 +17,9 @@ import { FaReact } from "react-icons/fa";
 import { IoNewspaperOutline, IoPersonOutline } from "react-icons/io5";
 
 const Course = ({
-  dataScience,
-  radio,
-  dataScienceCounselling,
+ 
   organicADS,
-  dataScienceGeneric,
+  
 }) => {
   // console.log("course component");
   const [mobile, setMobile] = useState(false);
@@ -57,7 +54,7 @@ const Course = ({
   useEffect(() => {
     const handleResize = () => {
       const width = window.innerWidth;
-
+  
       if (width < 481) {
         setValue(1.2);
         setMobile(true);
@@ -73,20 +70,20 @@ const Course = ({
       } else if (width <= 1024) {
         setValue(2.8);
       } else if (width <= 1280) {
-        setValue(3);
+        setValue(3.1);
       } else if (width <= 1281) {
-        setValue(2.4);
+        setValue(3.1);
       } else if (width > 1281) {
-        setValue(3);
+        setValue(3.4);
       }
     };
-
+  
     // Initial setup
     handleResize();
-
+  
     // Add event listener for window resize
     window.addEventListener("resize", handleResize);
-
+  
     // Cleanup the event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
@@ -94,33 +91,8 @@ const Course = ({
   }, []);
   return (
     <div className={styles.Course} id="course">
-      <Popup
-        trigger={popups}
-        setTrigger={setPopups}
-        className="popupModal"
-        downloadBrochure
-      >
-        <div className="leftPopup">
-          <div
-            className="whiteP"
-            style={{ width: "340px", height: "400px" }}
-          ></div>
-        </div>
-        <div className="RightPopup">
-          <h5>Download Brochure</h5>
-          <Form
-            titleCourse={titleCourse}
-            brochureLink={brochureLinks}
-            dataScience={dataScience}
-            dataScienceCounselling={dataScienceCounselling}
-            dataScienceGeneric={dataScienceGeneric}
-            radio={radio}
-            downloadBrochure
-            upSkillingHide={true}
-          />
-        </div>
-      </Popup>
-      <h2>Our Courses</h2>
+     
+      <h2>Our Free Courses</h2>
 
       <div className={styles.courses}>
         <div className={styles.listPanel}>
@@ -181,10 +153,10 @@ const Course = ({
                         <Swiper
                           slidesPerView={value}
                           spaceBetween={mobile ? 10 : 50}
-                          scrollbar={{ draggable: true }}
+                          // scrollbar={{ draggable: true }}
                           loop={true} // Add the loop prop to enable infinite loop
-                          modules={[Scrollbar]}
-                          className="mySwiper"
+                          // modules={[Scrollbar]}
+                          className= {`"mySwiper" ${styles.swipers}`}
                         >
                           {courseDetail.courseDetails.map(
                             (viewAllData, index) => {
@@ -362,7 +334,7 @@ const Course = ({
                                             {title1}
                                           </h6>
                                         </div>
-                                        <hr className={styles.hr} />
+                                      
                                         <div className={styles.paraDiv}>
                                           <p className={styles.singleP}>
                                             {/* <IoTimeOutline
@@ -398,7 +370,7 @@ const Course = ({
                                             ""
                                           )}
                                         </div>
-                                        <hr className={styles.hr1} />
+                                       
                                       </div>
                                       <div className={styles.btnWrapper}>
                                         {/* <a

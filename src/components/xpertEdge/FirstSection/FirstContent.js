@@ -2,12 +2,15 @@ import Image from "next/image";
 import Button from "../../Global/Button/Button";
 import styles from "./FirstSection.module.css";
 import React, { useState, useEffect } from "react";
+import Link from "next/link";
 
 const FirstContent = ({
   firstToparaImg,
   firstHeading,
   cityParaCont,
   FirstRightImg,
+
+  mblToparaImg,
 }) => {
   const [mobile, setMobile] = useState(false);
 
@@ -40,8 +43,8 @@ const FirstContent = ({
         <Image
           src={
             mobile
-              ? " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/expert-mbl+.webp"
-              : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/expert-back+.webp"
+              ? " https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpert-backgorund-first.webp"
+              : "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpert-backgorund-first.webp"
           }
           layout="fill"
           objectFit="cover"
@@ -68,13 +71,25 @@ const FirstContent = ({
               ))}
             </h1>
             <h1 className={styles.h1}> {firstToparaImg}</h1>
+            <h1 className={styles.mblh1}> {mblToparaImg}</h1>
+            <Image
+            className={styles.vetorbar}
+            src="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpert-vecttor.webp"
+            width={200}
+            height={20}
+            loading="lazy"
+            />
 
             <p className={styles.ptopCiity}>{cityParaCont}</p>
-            <div className={styles.animationTextWrap}></div>
+         
+            {/* <div className={styles.animationTextWrap}></div> */}
             <div className={styles.btnImage}>
+              <Link 
+              href="#course">
               <div>
                 <Button greenButton={true} text="Explore Free Courses" />
               </div>
+              </Link>
               <div>
                 <Button blackButton={true} text="Get Recommendation" />
               </div>
@@ -83,8 +98,8 @@ const FirstContent = ({
           <div className={styles.secondLeft}>
             <div className="bgImg">
               <Image
-                width={380}
-                height={390}
+                width={450}
+                height={450}
                 src={FirstRightImg}
                 // style={{ objectFit: "contain" }}
                 alt="data science course"

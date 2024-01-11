@@ -53,6 +53,119 @@
       "rating": 4.9,
       "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
       "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+    {
+      "id": 7,
+      "title": "Object oriented programming in Python ",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+   
+   
+    {
+      "id": 8,
+      "title": "Basics to Advance Excel ",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+    {
+      "id": 9,
+      "title": "PowerBI Fundamentals  ",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+
+    {
+      "id": 10,
+      "title": "SQL and Database Fundamentals ",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+
+    {
+      "id": 11,
+      "title": "Tableau Basics   ",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+    {
+      "id": 12,
+      "title": "Projects - Domain wise projects",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+    {
+      "id": 13,
+      "title": "Data Science and AI Fundamentals for BFSI Professionals ",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+    {
+      "id": 14,
+      "title": "Data Science and AI Fundamentals for Supply chain professionals",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+    {
+      "id": 15,
+      "title": "Data Science and AI Fundamentals for healthcare Professionals ",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+    {
+      "id": 16,
+      "title": "Data Science and AI Fundamentals for Manufacturing & Automotive Professionals",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+    {
+      "id": 17,
+      "title": "Data Science and Analytics Fundamentals for HR Professionals ",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
+    },
+    {
+      "id": 18,
+      "title": "Data Science and Analytics Fundamentals for Marketing Professionals ",
+      "description": "Description of Course 5",
+      "Duration":"9 Months",
+      "rating": 4.9,
+      "image": "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/learnbayMain/course-2.webp",
+      "url": "https://course.xpertedge.co/learn/Deep-Learning-Foundations" 
     }
+
   ]
   

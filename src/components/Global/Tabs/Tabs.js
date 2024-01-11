@@ -27,11 +27,13 @@ const Tabs = ({ handleIcon }) => {
 
     return (
       <div className={styles.RowWrap}>
+
         {selectedData.courseName.map((course, index) => (
           <div className={styles.Row} key={index}>
             <a href={course.url}>
               <div className={styles.Program} onClick={() => handleIcon(false)}>
                 <div className={styles.ProLeft}>
+                <p className={styles.head}>{course.Head}</p>
                   <h5>{course.CName}</h5>
                   <span>{course.hours}</span>
                 </div>
@@ -50,24 +52,33 @@ const Tabs = ({ handleIcon }) => {
         onMouseLeave={handleLeavePanel}
       >
         <div className={styles.leftPanel}>
+          <p className={styles.cats}>Categories</p>
+          
           {TabData.map((data, index) => (
             <div key={data.id}>
               <span
                 onClick={() => handleMenuChange(index)}
+                onMouseOver={() => handleMenuChange(index)}
                 className={
                   selectedIndex === index ? styles.spanActive : styles.span
                 }
+                
               >
                 {data.title}
                 <IoIosArrowForward />
               </span>
+           
               {(selectedIndex === index || selectedIndex === null) && (
+                
                  <div className={styles.middlePanel}>{renderCourses()}</div>
               )}
             </div>
           ))}
         </div>
-        <div className={styles.middlePanel}>{renderCourses()}</div>
+      
+        <div className={styles.middlePanel}>  {renderCourses()}
+        </div>
+        
       </div>
     </div>
   );

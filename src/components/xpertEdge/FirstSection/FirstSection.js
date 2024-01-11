@@ -6,6 +6,7 @@ function FirstSection({
   firstHeading,
   FirstRightImg,
   cityParaCont,
+   mblToparaImg,
 }) {
 
   return (
@@ -15,6 +16,8 @@ function FirstSection({
         firstHeading={firstHeading}
         FirstRightImg={FirstRightImg}
         cityParaCont={cityParaCont}
+        
+         mblToparaImg={ mblToparaImg}
       />
     </>
   );

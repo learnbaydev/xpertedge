@@ -42,9 +42,11 @@ export default function Home() {
       
       <FirstSection
         cityParaCont="Free Data Science courses with certification"
-        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/expert-first+(1).webp"
-        firstToparaImg="for free from Industry Experts"
-        firstHeading="Master  Data Science  Skills "
+        FirstRightImg="https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/xpert-first.webp"
+        firstToparaImg="for free from Experts"
+        firstHeading="Master Data Science"
+        mblToparaImg="Skills for free from Industry Experts"
+        
       />
       <SecondSection />
       <Course />

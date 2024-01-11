@@ -10,8 +10,8 @@ export const courseDetails = [
           {
             id: 1,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1.webp",
-            title: "Python For             ",
-            title1: "Non Programmers ",
+            title: "Python For Non Programmers          ",
+            title1: " ",
             tag: "Data science",
             brochureLinks: "",
             titleCourse: "Advance Data Science and AI Certification",
@@ -24,8 +24,8 @@ export const courseDetails = [
           {
             id: 2,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+3.webp",
-            title: "Python             ",
-            title1: "Programming ",
+            title: "Python Programming             ",
+            title1: " ",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks: "",
@@ -39,8 +39,8 @@ export const courseDetails = [
           {
             id: 3,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+4.webp",
-            title: "Object oriented            ",
-            title1: "programming in Python ",
+            title: "Object oriented programming in Python            ",
+            title1: "",
             tag: "Data science",
             tagHead: "For Sr. Managers/Team Lead",
             brochureLinks:
@@ -56,9 +56,9 @@ export const courseDetails = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy.webp",
-            title: "Data analytics with          ",
-            title1: "Python   ",
-            tagHead: "For Working Professional",
+            title: "Data analytics with For Working Professional  Python        ",
+            title1: "   ",
+            tagHead: "",
             tag: "Data science",
             brochureLinks: "",
             titleCourse: "Business Analytics Program",
@@ -71,8 +71,8 @@ export const courseDetails = [
           {
             id: 5,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+2.webp",
-            title: "Statistics            ",
-            title1: "Fundamentals ",
+            title: "Statistics Fundamentals            ",
+            title1: "",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks: "",
@@ -119,17 +119,11 @@ export const courseDetails = [
           //   link2:
           //     "https://brochureslearnbay.s3.ap-south-1.amazonaws.com/NewCourseBrochure/Data+Analytics+Certification+Program.pdf",
           // },
-        ],
-      },
-      {
-        courseName: "",
-        id: "Non-Tech Courses",
-        courseDetails: [
           {
-            id: 1,
+            id: 7,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/ML-FOUNDATION-min.webp",
-            title: "Machine Learning           ",
-            title1: "Foundation   ",
+            title: "Machine Learning Foundation           ",
+            title1: "  ",
             tag: "Data science",
             brochureLinks: "",
             titleCourse: "Advance Data Science and AI Certification",
@@ -140,10 +134,10 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 2,
+            id: 8,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+6.webp",
-            title: "Deep Learning         ",
-            title1: "Foundations     ",
+            title: "Deep Learning Foundations        ",
+            title1: "    ",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks: "",
@@ -155,10 +149,10 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 3,
+            id: 9,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+7.webp",
-            title: "Basics to Advance          ",
-            title1: " Excel  ",
+            title: "Basics to Advance Excel         ",
+            title1: "   ",
             tag: "Data science",
             tagHead: "For Sr. Managers/Team Lead",
             brochureLinks: "",
@@ -170,10 +164,10 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 4,
+            id: 10,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+8.webp",
-            title: "PowerBI         ",
-            title1: "Fundamentals    ",
+            title: "PowerBI Fundamentals         ",
+            title1: "   ",
             tagHead: "For Working Professional",
             tag: "Data science",
             brochureLinks: "",
@@ -185,7 +179,7 @@ export const courseDetails = [
             link2: "",
           },
           {
-            id: 5,
+            id: 11,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Artboard+1+copy+9.webp",
             title: "SQL and Database          ",
             title1: "Fundamentals   ",
@@ -253,6 +247,110 @@ export const courseDetails = [
           // },
         ],
       },
+      {
+        courseName: "Non-Tech Courses",
+        id: "Non-Tech Courses",
+        courseDetails: [
+          {
+            id: 1,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/BFSI.webp",
+            title: "Data Science and AI Fundamentals          ",
+            title1: " for BFSI Professionals  ",
+            tag: "Data science",
+            brochureLinks: "",
+            titleCourse: "Advance Data Science and AI Certification",
+            description: [
+              "Learnbay's Data Science for BFSI Professionals' course provides essential knowledge and practical skills in AI,  tailored for BFSI professionals.              ",
+            ],
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science-and-AI-Fundamentals-for-BFSI-Professionals",
+            link2: "",
+          },
+          {
+            id: 2,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Supply+chain.webp",
+            title: "Data Science and AI Fundamentals           ",
+            title1: "for Supply chain professionals  ",
+            tag: "Data science",
+            tagHead: "For Sr. Managers/Team Lead",
+            brochureLinks: "",
+            titleCourse: "Advance AI and ML Non-Tech Courses",
+            description: [
+              "Data Science and AI Fundamentals for Supply Chain Professionals imparts foundational knowledge tailored for supply chain individuals in data science and AI.              ",
+            ],
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Supplychain-Professionals",
+            link2: "",
+          },
+          {
+            id: 3,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/healthcare_.webp",
+            title: "Data Science and AI Fundamentals            ",
+            title1: "for healthcare Professionals ",
+            tagHead: "For Working Professional",
+            tag: "Data science",
+            brochureLinks:
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
+            titleCourse: "Business Analytics Program",
+            description: [
+              "Tailored for healthcare, the 'Data Science and AI Fundamentals' course provides foundational insights into AI and data science principles.              ",
+            ],
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Healthcare-Professionals",
+            link2: "",
+          },
+          {
+            id: 4,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Manufacturing+_+Automotive+Professionals.webp",
+            title: "Data Science and AI Fundamentals for Manufacturing & Automotive Professionals           ",
+            title1: "  ",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://course.xpertedge.co/learn/Data-Science---AI-for-Manufacturing---Automotive",
+            titleCourse: "Data Analytics Program",
+            description: [
+              "This course equips manufacturing and automotive professionals with essential knowledge and skills in Data Science and Artificial Intelligence.              ",
+            ],
+            link1: "https://course.xpertedge.co/learn/Data-Science---AI-for-Manufacturing---Automotive",
+            link2: "",
+          },
+          {
+            id: 5,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/HR+Professionals.webp",
+            title: "Data Science and Analytics          ",
+            title1: "Fundamentals for HR Professionals   ",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://course.xpertedge.co/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
+            titleCourse: "Software Developer Certification",
+            description: [
+              "Tailored for HR professionals, this course imparts data science and analytics knowledge, enabling strategic HR management through data-driven insights.               ",
+            ],
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science-and-Analytics-Fundamentals-for-HR-Professionals",
+            link2: "",
+          },
+          {
+            id: 6,
+            img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Marketing+Professionals.webp",
+            title: "Data Science and Analytics Fundamentals           ",
+            title1: "for Marketing Professionals     ",
+            tagHead: "Guaranteed Interview Call",
+            tag: "Data science",
+            brochureLinks:
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
+            titleCourse: "Software Developer Certification",
+            description: [
+              "Tailored for marketers, this course sharpens skills in leveraging data insights, optimizing campaigns, and achieving measurable results through informed decisions.              ",
+            ],
+            link1:
+              "https://course.xpertedge.co/learn/Data-Science---AI-Fundamentals-for-Marketing-Professionals",
+            link2: "",
+          },
+        ],
+      },
     ],
   },
 
@@ -315,8 +413,8 @@ export const courseDetails = [
           {
             id: 4,
             img: "https://d32and0ii3b8oy.cloudfront.net/web/s3_main/expertEdge/Manufacturing+_+Automotive+Professionals.webp",
-            title: "Data Science and AI Fundamentals for          ",
-            title1: "Manufacturing & Automotive Professionals   ",
+            title: "Data Science and AI Fundamentals for Manufacturing & Automotive Professionals          ",
+            title1: "  ",
             tagHead: "Guaranteed Interview Call",
             tag: "Data science",
             brochureLinks:

@@ -8,6 +8,11 @@
 margin-right: 6px;
 
 }
+.swipers {
+  margin: 0px 0px;
+  /* background-color: red; */
+
+}
 
 .Course h2 {
   color: black;
@@ -18,7 +23,7 @@ margin-right: 6px;
 }
 
 .mainHeadGreen {
-  color: #72BC00 !important;
+  color: #65A700 !important;
 }
 
 .listPanel .mPanel {
@@ -46,7 +51,7 @@ margin-right: 6px;
 }
 
 .green {
-  background: #72BC00;
+  background: #65A700;
   color: #fff;
 }
 
@@ -65,8 +70,8 @@ margin-right: 6px;
   font-weight: 400;
   cursor: pointer;
   justify-content: start;
-  border-bottom: 2px solid #72BC00;
-  color: #72BC00;
+  border-bottom: 2px solid #65A700;
+  color: #65A700;
 }
 .gridPanel {
   display: flex;
@@ -142,6 +147,7 @@ width: 200px;
   width: 33%;
   margin-top: 20px;
   margin-left: 10px;
+  height: fit-content;
 }
 
 .SliderWrap {
@@ -182,7 +188,7 @@ width: 200px;
   margin-top: -5px;
   border-radius: 0px 8px 0px 0px;
   z-index: -1;
-  background: linear-gradient(to right, white, #72BC00);
+  background: linear-gradient(to right, white, #65A700);
 }
 .leftBorder {
   position: absolute;
@@ -191,7 +197,7 @@ width: 200px;
   z-index: 0;
   margin-left: -5px;
   height: 47%;
-  background: linear-gradient(to top, #72BC00, white);
+  background: linear-gradient(to top, #65A700, white);
   border-radius: 0px 8px 0px 8px;
 }
 
@@ -201,7 +207,7 @@ width: 200px;
   top: -4px;
   right: 0px;
   width: 10%;
-  background: linear-gradient(to bottom, #72BC00, white);
+  background: linear-gradient(to bottom, #65A700, white);
   margin-right: -5px;
   border-radius: 0px 8px 0px 8px;
 }
@@ -213,13 +219,13 @@ width: 200px;
   border: 5px;
   border-radius: 0px 0px 0px 8px;
   z-index: -1;
-  background: linear-gradient(to right, #72BC00, white);
+  background: linear-gradient(to right, #65A700, white);
 }
 .newSliderWrap .contentBox {
   width: 100%;
   flex-flow: column;
   align-items: center;
-  padding: 20px 20px 12px 20px;
+  padding: 4px 20px 20px 20px;
   margin-left: 0px;
   background-color: rgba(
     255,
@@ -227,6 +233,7 @@ width: 200px;
     255,
     0.8
   ); /* Use rgba for background color with transparency */
+  height: 200px;
 }
 
 .contentBox {
@@ -260,7 +267,7 @@ width: 200px;
 }
 .hr {
   border: 1px solid #efefef;
-  background-color: #72BC00;
+  background-color: #65A700;
   height: 1px;
   top: 45%;
   position: absolute;
@@ -269,7 +276,7 @@ width: 200px;
 }
 .hr1 {
   border: 0.3px solid #efefef;
-  background-color: #72BC00;
+  background-color: #65A700;
   height: 0.3px;
   bottom: -1%;
   left: 0px;
@@ -305,7 +312,7 @@ width: 200px;
 }
 .checkCircle {
   margin-right: 10px;
-  color: #72BC00;
+  color: #65A700;
   font-size: 22px;
 }
 .btnWrapper {
@@ -346,7 +353,7 @@ width: 200px;
   margin-left: -3px;
 }
 .fillBtn {
-  background-color: #72BC00;
+  background-color: #65A700;
   color: white;
   height: 100%;
   border-radius: 0px 0px 8px 0px;
@@ -479,8 +486,8 @@ width: 200px;
     cursor: pointer;
     line-height: normal;
     border: 0;
-    border-bottom: 2px solid #72BC00;
-    color: #72BC00;
+    border-bottom: 2px solid #65A700;
+    color: #65A700;
     justify-content: start;
   }
   .Course h2 {
@@ -534,7 +541,7 @@ width: 200px;
     width: 100%;
     font-family: "Inter", sans-serif;
     margin-top: 0px;
-    color: #72BC00;
+    color: #65A700;
     margin-right: 0;
   }
   .mainHead {
@@ -593,7 +600,7 @@ width: 200px;
   }
   .btnWrapper .outLineBtn1 {
     background-color: #fff;
-    color: #72BC00;
+    color: #65A700;
   }
   .btnLine {
     border: 0px;
@@ -629,7 +636,7 @@ width: 200px;
 }
 
 .mainHeadGreen {
-  color: #72BC00 !important;
+  color: #65A700 !important;
 }
 
 .listPanel .mPanel {
@@ -661,7 +668,7 @@ width: 200px;
 }
 
 .green {
-  background: #72BC00;
+  background: #65A700;
   color: #fff;
   border-radius: 0px 0px 20px 0px;
 }
@@ -681,8 +688,8 @@ width: 200px;
   font-weight: 400;
   cursor: pointer;
   justify-content: start;
-  border-bottom: 2px solid #72BC00;
-  color: #72BC00;
+  border-bottom: 2px solid #65A700;
+  color: #65A700;
   font-size: 20px;
 }
 .gridPanel {
@@ -730,9 +737,8 @@ width: 200px;
 
 .gridPanel {
   display: flex;
-  height: 530px;
   width: 100%;
-  max-height: 700px;
+  /* max-height: 700px; */
   gap: 20px;
   padding: 0px;
   overflow: auto;
@@ -740,6 +746,8 @@ width: 200px;
   scroll-behavior: smooth;
   transition: transform 0.3s ease-out 0s;
   pointer-events: auto;
+  height: 440px;
+  
 }
 
 .gridPanel .Course h5 {
@@ -765,6 +773,7 @@ width: 200px;
   border-radius: 8px;
   background-color: white;
   height: 400px;
+  margin: 0px 10px;
 }
 
 .newSliderWrap,
@@ -866,6 +875,7 @@ width: 200px;
     255,
     0.8
   ); /* Use rgba for background color with transparency */
+  height: 160px;
 }
 
 .contentBox {
@@ -873,7 +883,7 @@ width: 200px;
   position: relative;
   flex-flow: column;
   align-items: center;
-  padding: 0px 20px 12px 20px;
+  padding: 12px 20px 12px 20px;
   margin-left: 0px;
   background-color: white;
   /* hello */
@@ -904,7 +914,7 @@ width: 200px;
 }
 .hr {
   border: 1px solid #efefef;
-  background-color: #72BC00;
+  background-color: #65A700;
   height: 1px;
   top: 36%;
   position: absolute;
@@ -913,7 +923,7 @@ width: 200px;
 }
 .hr1 {
   border: 0.3px solid #efefef;
-  background-color: #72BC00;
+  background-color: #65A700;
   height: 0.3px;
   bottom: -1%;
   left: 0px;
@@ -930,13 +940,13 @@ width: 200px;
 
 .leftSide p {
   display: flex;
-  color: #030303;
+  color: #767676;
   align-items: center;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   margin: 0;
-  margin-top: 10px;
-  line-height: 21px;
+  margin-top: 16px;
+  line-height: 22px;
 }
 
 .leftSide p:last-child {
@@ -950,7 +960,7 @@ width: 200px;
 }
 .checkCircle {
   margin-right: 10px;
-  color: #72BC00;
+  color: #65A700;
   font-size: 22px;
 }
 .btnWrapper {
@@ -993,7 +1003,7 @@ width: 200px;
   margin-left: -3px;
 }
 .fillBtn {
-  background-color: #72BC00;
+  background-color: #65A700;
   color: white;
   height: 100%;
   border-radius: 0px 0px 8px 0px;
@@ -1127,8 +1137,8 @@ width: 200px;
     cursor: pointer;
     line-height: normal;
     border: 0;
-    border-bottom: 2px solid #72BC00;
-    color: #72BC00;
+    border-bottom: 2px solid #65A700;
+    color: #65A700;
     justify-content: start;
   }
   .Course h2 {
@@ -1186,7 +1196,7 @@ width: 200px;
     width: 100%;
     font-family: "Inter", sans-serif;
     margin-top: 0px;
-    color: #72BC00;
+    color: #65A700;
     margin-right: 0;
     font-size: 14px;
   }
@@ -1248,7 +1258,7 @@ width: 200px;
   }
   .btnWrapper .outLineBtn1 {
     background-color: #fff;
-    color: #72BC00;
+    color: #65A700;
   }
   .btnLine {
     border: 0px;

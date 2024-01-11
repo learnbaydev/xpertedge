@@ -1,23 +1,23 @@
 // pages/Search.js
-import { useState, useRef, useEffect } from 'react';
-import Link from 'next/link';
-import { BiSearch } from 'react-icons/bi';
-import { BsX } from 'react-icons/bs'; // Import close icon
-import styles from './SearchBar.module.css';
-import courseData from '@/Data/NavbarData/TabData.json';
-import { useRouter } from 'next/router';
-import { FaStar } from "react-icons/fa";
+import { useState, useRef, useEffect } from "react";
+import Link from "next/link";
+import { BiSearch } from "react-icons/bi";
+import { BsX } from "react-icons/bs"; // Import close icon
+import styles from "./SearchBar.module.css";
+import searchData from "@/Data/NavbarData/tabData.json"; // Import your data file
+import { useRouter } from "next/router";
 
 const Search = () => {
-  const [query, setQuery] = useState('');
+  const [query, setQuery] = useState("");
   const [showDropdown, setShowDropdown] = useState(false);
+  const [searchResults, setSearchResults] = useState([]);
   const dropdownRef = useRef(null);
   const router = useRouter();
 
   const handleSearch = (event) => {
     event.preventDefault();
     // Implement your search logic here if needed
-    console.log('Search button clicked');
+    console.log("Search button clicked");
   };
 
   const handleInputClick = () => {
@@ -34,9 +34,19 @@ const Search = () => {
   };
 
   const handleChange = (e) => {
+    const searchTerm = e.target.value;
+    setQuery(searchTerm);
     setQuery(e.target.value);
     setShowDropdown(true);
-    // Your search logic here
+
+    // Implement your search logic here (e.g., filter data based on search term)
+    const results = getSearchResults(searchTerm);
+
+    // Update the search results state
+    setSearchResults(results);
+
+    // Show the dropdown only if there are results
+    setShowDropdown(results.length > 0);
   };
 
   const handleClickOutside = (event) => {
@@ -62,87 +72,163 @@ const Search = () => {
     };
 
     // Add event listener for window resize
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     // Cleanup the event listener on component unmount
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
-
   }, []);
 
-
   useEffect(() => {
-    document.addEventListener('click', handleClickOutside);
+    document.addEventListener("click", handleClickOutside);
     return () => {
-      document.removeEventListener('click', handleClickOutside);
+      document.removeEventListener("click", handleClickOutside);
     };
   }, []);
 
   return (
-    <div className={`${styles.searchContainer} ${isMobileView ? styles.mobileView : ''}`}>
+    <div
+      className={`${styles.searchContainer} ${
+        isMobileView ? styles.mobileView : ""
+      }`}
+    >
       <div className={styles.destopview}>
-      <div className={`${styles.input} ${isMobileView ? styles.mobileInput : ''}`} ref={dropdownRef}>
-        <BiSearch className={styles.searchIcon} onClick={handleInputClick} />
-        <input
-          className={styles.inputStyle}
-          type="text"
-          placeholder={`Search ${isMobileView ? '' : 'free courses and topics you want to learn'}`}
-          value={query}
-          onChange={handleChange}
-          onClick={handleInputClick}
-        />
-        {isMobileView && showDropdown && (
-          <button className={styles.closeButton} onClick={handleCloseClick}>
-            <BsX />
-          </button>
+        <div
+          className={`${styles.input} ${
+            isMobileView ? styles.mobileInput : ""
+          }`}
+          ref={dropdownRef}
+        >
+          <BiSearch className={styles.searchIcon} onClick={handleInputClick} />
+          <input
+            className={styles.inputStyle}
+            type="text"
+            placeholder={`Search ${
+              isMobileView ? "" : "free courses and topics you want to learn"
+            }`}
+            value={query}
+            onChange={handleChange}
+            onClick={handleInputClick}
+          />
+          {isMobileView && showDropdown && (
+            <button className={styles.closeButton} onClick={handleCloseClick}>
+              <BsX />
+            </button>
+          )}
+        </div>
+
+        {showDropdown && (
+          <div className={styles.dropdown}>
+            <span className={styles.popular}>Popular Free Courses</span>
+            {searchResults.map((result) => (
+              <div
+                className={styles.dropdownItem}
+                key={result.id}
+                onClick={() => handleClick(result.url)}
+              >
+                <a href={result.url}>
+                  <div className={styles.courseInfo}>
+                    <h4>{result.title}</h4>
+                    {/* Display other result information as needed */}
+                  </div>
+                </a>
+              </div>
+            ))}
+          </div>
         )}
       </div>
-
-      {showDropdown && (
-        <div className={styles.dropdown}>
-          
-          <span className={styles.popular}>Popular Courses</span>
-          {courseData.map((course) => (
-            <div
-              className={styles.dropdownItem}
-              key={course.id}
-              onClick={() => handleClick(course.url)}
-            >
-              <a href={course.url}>
-              <div className={styles.courseInfo}>
-                <h4>{course.title}</h4>
-                <div className={styles.dropdowncol}>
-                  <ul className={styles.ul}>
-                    <li className={styles.duration}></li>
-                    <li className={styles.rating}>  </li>
-                  </ul>
-                </div>
-              </div>
-              </a>
-            </div>
-          ))}
-        </div>
-      )}
-      </div>
       <div className={styles.containertwo}>
-      <form role="search" method="get" className={`${styles['search-form']}`} onSubmit={handleSearch}>
-        <label>
-          <input
-            type="search"
-            className={`${styles['search-field']}`}
-            placeholder="Search …"
-            value=""
-            name="s"
-            title="Search for:"
-          />
-        </label>
-        <input type="submit" className={`${styles['search-submit']}`} value="Search" />
-      </form>
-    </div>
-      
+  <form
+  onClick={handleInputClick} 
+    role="search"
+    method="get"
+    className={`${styles["search-form"]}`}
+    onSubmit={handleSearch}
+  >
+    <label>
+      <input
+      onClick={handleInputClick} 
+        type="search"
+        className={`${styles["search-field"]}`}
+        placeholder="Search …"
+        value=""
+        name="s"
+        title="Search for:"
+      />
+    </label>
+    {isMobileView && showDropdown && (
+      <button className={styles.closeButton} onClick={handleCloseClick}>
+        <BsX />
+      </button>
+    )}
+    {isMobileView && showDropdown && (
+      <div className={styles.dropdown}>
+        <span className={styles.popular}>Popular Free Courses</span>
+        {searchResults.map((result) => (
+          <div
+            className={styles.dropdownItem}
+            key={result.id}
+            onClick={() => handleClick(result.url)}
+          >
+            <a href={result.url}>
+              <div className={styles.courseInfo}>
+                <h4>{result.title}</h4>
+                {/* Display other result information as needed */}
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+    )}
+    <input
+      type="submit"
+      className={`${styles["search-submit"]}`}
+      value="Search"
+      onClick={handleInputClick} 
+    />
+     {isMobileView && showDropdown && (
+      <div className={styles.dropdown}>
+        <span className={styles.popular}>Popular Free Courses</span>
+        {searchResults.map((result) => (
+          <div
+            className={styles.dropdownItem}
+            key={result.id}
+            onClick={() => handleClick(result.url)}
+          >
+            <a href={result.url}>
+              <div className={styles.courseInfo}>
+                <h4>{result.title}</h4>
+                {/* Display other result information as needed */}
+              </div>
+            </a>
+          </div>
+        ))}
+      </div>
+    )}
+      {isMobileView && showDropdown && (
+      <button className={styles.closeButton} onClick={handleCloseClick}>
+        <BsX />
+      </button>
+    )}
+  </form>
+</div>
+
     </div>
   );
 };
 
 export default Search;
+
+// Helper function to filter data based on search term
+const getSearchResults = (searchTerm) => {
+  // Convert the search term to lowercase for case-insensitive search
+  const searchTermLowerCase = searchTerm.toLowerCase();
+
+  // Filter the data based on the search term
+  const results = searchData.filter((item) =>
+    item.title.toLowerCase().includes(searchTermLowerCase)
+  );
+
+  return results;
+};

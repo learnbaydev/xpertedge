@@ -14,6 +14,11 @@ const FirstContent = ({
 }) => {
   const [mobile, setMobile] = useState(false);
 
+  const handleButtonClick = () => {
+    // You can add your code here to send the email or redirect to another page
+    window.location.href = 'mailto:support@xpertedge.co';
+  };
+
   useEffect(() => {
     const checkWidth = () => {
       let width = window.innerWidth;
@@ -91,7 +96,7 @@ const FirstContent = ({
               </div>
               </Link>
               <div>
-                <Button blackButton={true} text="Get Recommendation" />
+                <Button blackButton={true} text="Get Recommendation"  onClick={handleButtonClick}/>
               </div>
             </div>
           </div>
@@ -109,11 +114,14 @@ const FirstContent = ({
             </div>
           </div>
           <div className={styles.btnmbl}>
+              <Link 
+              href="#course">
             <div>
               <Button greenButton={true} text="Explore Free Courses" />
             </div>
+            </Link>
             <div>
-              <Button blackButton={true} text="Get Recommendation" />
+              <Button blackButton={true} text="Get Recommendation" onClick={handleButtonClick} />
             </div>
           </div>
         </div>

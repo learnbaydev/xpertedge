@@ -4,7 +4,7 @@ import Link from "next/link";
 import { BiSearch } from "react-icons/bi";
 import { BsX } from "react-icons/bs"; // Import close icon
 import styles from "./SearchBar.module.css";
-import searchData from "@/Data/NavbarData/tabData.json"; // Import your data file
+import searchData from "@/Data/NavbarData/TabData.json"; // Import your data file
 import { useRouter } from "next/router";
 
 const Search = () => {

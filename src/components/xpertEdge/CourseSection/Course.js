@@ -262,7 +262,7 @@ const Course = ({
                                           : {
                                               borderRadius: "0px 0px 10px 10px",
                                               width: "100%%",
-                                              marginTop: "-12px",
+                                              // marginTop: "-12px",
                                               zIndex: "0",
                                               boxShadow:
                                                 "rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px",
@@ -334,7 +334,7 @@ const Course = ({
                                             {title1}
                                           </h6>
                                         </div>
-                                      
+                                        <hr className={styles.hr} />
                                         <div className={styles.paraDiv}>
                                           <p className={styles.singleP}>
                                             {/* <IoTimeOutline
@@ -370,7 +370,7 @@ const Course = ({
                                             ""
                                           )}
                                         </div>
-                                       
+                                        {/* <hr className={styles.hr1} /> */}
                                       </div>
                                       <div className={styles.btnWrapper}>
                                         {/* <a

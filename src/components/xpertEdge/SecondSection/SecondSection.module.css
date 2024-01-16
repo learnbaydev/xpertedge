@@ -72,7 +72,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    /* text-align: center; */
+    text-align: center;
     /* border-radius: 22.048px; */
 box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
 }
